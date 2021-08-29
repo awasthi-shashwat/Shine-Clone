@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs 2021-Search Jobs in India</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4008f4a305.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/free-job-alerts.css">
+
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div><a href="home.html">
+                    <img src="./image/shine-logo.png" alt="" class="float-left">
+                </a></div>
+            <div class="flex-display">
+                <div>
+                    <ul id="before">
+                        <li class="hover-color dropdown">
+                            <div class="flex">
+                                <span class="dropbtn">Search Jobs</span>
+                                <span class="material-icons">arrow_drop_down</span>
+                            </div>
+                            <div class="dropdown-content">
+                                <a href="#">Jobs in Top Cities</a>
+                                <a href="#">Jobs by Skills</a>
+                                <a href="#">Jobs by Courses</a>
+                                <a href="#">Jobs by Education</a>
+                                <a href="#">Jobs by Designation</a>
+                                <a href="#">Jobs by Company</a>
+                            </div>
+
+                        </li>
+                        <li class="hover-color dropdown">
+                            <div class="flex">
+                                <span class="dropbtn">Services</span>
+                                <span class="material-icons">arrow_drop_down</span>
+                            </div>
+                            <div class="dropdown-content">
+                                <a href="#">Digital Marketing</a>
+                                <a href="#">Data Science</a>
+                                <a href="#">Cloud Computing</a>
+                                <a href="#">GST</a>
+                                <a href="#">Project Management</a>
+                                <a href="#">Six Sigma</a>
+                            </div>
+                        </li>
+                        <li class="hover-color dropdown">
+                            <div class="flex">
+                                <span class="dropbtn">Resorces</span>
+                                <span class="material-icons dropbtn">arrow_drop_down</span>
+                            </div>
+                            <div class="dropdown-content">
+                                <a href="#">Blog</a>
+                                <a href="#">Resume Tips</a>
+                                <a href="#">Career Help</a>
+                                <a href="#">Career Prospects</a>
+                                <a href="#">Job Search Guidance</a>
+                                <a href="#">Interview Tips</a>
+                            </div>
+                        </li>
+                        <li class="hover-color">Job Alerts</li>
+                        <li id="career-guidence" class="flex career-guidence">
+                            <span class="material-icons">lightbulb</span>
+                            <span>Career Guidance</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul id="after">
+                        <li class="hover-color">Login</li>
+                        <li id="register"> Register</li>
+                        <li class="flex hover-color">
+                            <span class="material-icons ">supervisor_account</span>
+                            <span>Recruiter</span>
+                        </li>
+                        <li class="flex hover-color">
+                            <span class="material-icons ">get_app</span>
+                            <span>Get App</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="middle" class="flex">
+        <div id="middle-left" class="flex-column">
+            <h1>Create a Free Job Alert 2021</h1>
+            <h2>You can create upto 5 alerts</h2>
+            <div id="form-div">
+                <p class="alert">Let us know what kind of job you are looking for and we'll send them to your Inbox.</p>
+                <form action="">
+                    <ul>
+                        <li>
+                            <label for="keywords">Keywords</label>
+                            <input id="keywords" type="text" placeholder="Search Keywords">
+                        </li>
+                        <li>
+                            <label for="salary">Salary</label>
+                            <span class="posrel floatLeft">
+                                <span class="select" id="sal-display"> - Any -</span>
+                                <select name="" id="selectSalary" class="styled">
+                                    <option value=""><button>- Any -</button></option>
+                                    <option value="0 / year"><button>0 / year</button></option>
+                                    <option value="Rs 1,00,000 / year"><button>Rs 1,00,000 / year</button></option>
+                                    <option value="Rs 1,00,000 to 3,00,000 / year"><button>Rs 1,00,000 to 3,00,000 /
+                                            year</button>
+                                    </option>
+                                    <option value="Rs 3,00,000 to 5,00,000 / year"><button>Rs 3,00,000 to 5,00,000 /
+                                            year</button>
+                                    </option>
+                                    <option value="5,00,000 or Above / year"><button>5,00,000 or Above / year</button>
+                                    </option>
+                                </select>
+                            </span>
+                        </li>
+                        <li>
+                            <label for="experience">Experience</label>
+                            <!-- <input name="experience" type="text" placeholder="- Any -"> -->
+                            <span class="posrel floatLeft">
+                                <span class="select" id="exp-display"> - Any -</span>
+                                <select name="" id="selectExperience" class="styled">
+                                    <option value="">- Any -</option>
+                                    <option value="0">0 year</option>
+                                    <option value="Less than 1 year">Less than 1 year</option>
+                                    <option value="1 to 3 year">1 to 3 year</option>
+                                    <option value="3 to 5 year">3 to 5 year</option>
+                                    <option value="5 to 10 year">5 to 10 year</option>
+                                    <option value="10 or Above">10 or Above</option>
+                                </select>
+                            </span>
+                        </li>
+                        <li>
+                            <label for="locations">Locations</label>
+                            <span class="posrel floatLeft">
+                                <span class="select">Select the name of the city</span>
+                                <select name="" id="selectLocation" class="styled">
+                                    <option value="">City</option>
+                                    <optgroup label="Top Cities">
+                                        <option value="Indore">Indore</option>
+                                        <option value="Mumbai">Mumbai</option>
+                                        <option value="Banglore">Banglore</option>
+                                        <option value="Hyderabad">Hyderabad</option>
+                                        <option value="Delhi">Delhi</option>
+                                    </optgroup>
+                                    <optgroup label="Andhra Pradesh">
+                                        <option value="Nellore">Nellore</option>
+                                        <option value="Triupati">Triupati</option>
+                                        <option value="Vishakhapatnam">Vishakhapatnam</option>
+                                    </optgroup>
+                                    <optgroup label="Madhya Pradesh">
+                                        <option value="Bhopal">Bhopal</option>
+                                        <option value="Gwalior">Gwalior</option>
+                                        <option value="Dewas">Dewas</option>
+                                        <option value="Ujjain">Ujjain</option>
+                                    </optgroup>
+                                </select>
+                                <div id="locationDisplay">
+                                </div>
+                            </span>
+
+                        </li>
+                        <li>
+                            <label for="department">Department</label>
+                            <span class="posrel floatLeft">
+                                <span class="select">Select Departments</span>
+                                <select name="" id="selectDepartment" class="styled">
+                                    <option value="">
+                                        -----------------Top Departments------------------
+                                    </option>
+                                    <optgroup label="Finance / Accounts / Investment Banking">
+                                        <option value="Audit">Audit</option>
+                                        <option value="Equity-Reserch">Equity Reserch</option>
+                                        <option value="Finance-account-tax">Finance / Accounts / Tax</option>
+                                    </optgroup>
+                                    <optgroup label="Real Estate">
+                                        <option value="Property-Management">Property Management</option>
+                                        <option value="Real-Estate-Consultant">Real Estate Consultant / Agent
+                                        </option>
+                                    </optgroup>
+                                    <optgroup label="HR / Recruitment">
+                                        <option value="HR">HR</option>
+                                        <option value="Recruitment">Recruitment</option>
+                                        <option value="Recruitment-development">Recruitment & Development</option>
+                                    </optgroup>
+                                </select>
+                                <div id="departmentDisplay">
+                                </div>
+                            </span>
+                        </li>
+                        <li>
+                            <label for="industry">Industry</label>
+                            <span class="posrel floatLeft">
+                                <span class="select">Select Industry</span>
+                                <select name="" id="selectIndustry" class="styled">
+                                    <option value="">-- Top Industries --
+                                    </option>
+                                    <optgroup label="-- Top Industries --">
+                                        <option value="IT-Software">IT - Software</option>
+                                        <option value="Automation">Automation</option>
+                                        <option value="Banking / Financial Services">Banking / Financial Services
+                                        </option>
+                                        <option value="Manufacturing">Manufacturing</option>
+                                    </optgroup>
+                                    <optgroup label="-- Other Industries --">
+                                        <option value="Broking">Broking</option>
+                                        <option value="Industrial Design">Industrial Design</option>
+                                        <option value="Leather">Leather</option>
+                                    </optgroup>
+                                </select>
+                                <div id="industryDisplay">
+                                </div>
+                            </span>
+
+                        </li>
+                        <li>
+                            <label for="email">Email ID <span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Your Email Id" id="emailform" required>
+                        </li>
+                        <li>
+                            <label for="alert">Name of the Alert <span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Alert Name" id="alert-name" required>
+                        </li>
+
+                        <li>
+                            <label for=""></label>
+                            <button class="submit-form">Create job alert</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+
+            <div id="middle-bottom">
+                <p> Shine.com free job alert 2020 is the perfect place to get quick updates for the most relevant jobs
+                    matching your job profile and requirements. We offer <strong>free job alert notifications</strong>
+                    for all kind of jobs. These jobs are delivered straight to your mailbox, and also you can also
+                    access them on your mobile. We send you customized job alert based on your preferred location, CTC
+                    expectations, job field, industry type, experience level and different organization. Our free job
+                    alert notifies you about the trending jobs which are posted on our portal and gives you a chance to
+                    be the first applicant to apply.</p>
+
+                <p>The most useful part is that you can create your unique job alert on various industries and locations
+                    at the same time. For instance; you can create a job alert for <a href="">digital marketing jobs</a>
+                    or
+                    <a href="">IT jobs</a> and another job alert for <a href="">banking jobs or government jobs</a>. The
+                    benefit of creating job alerts is that you can be <a href="">the first to apply to the
+                        vacancies</a>, which creates an opportunity to be selected from recruiter early.
+                </p>
+
+                <p> To create a job alert, you have to fill out our form, and you will start receiving push
+                    notifications once you create a job alert.</p>
+            </div>
+        </div>
+        <div id="middle-right">
+            <div>
+                <strong>Not Registered on Shine?</strong>
+                <p>Register now and get discovered by over 14,000 recruiters!</p>
+                <a href="" class="submit">Sign up</a>
+            </div>
+            <div class="faq-wrap">
+                <section class="tittle qna">
+                    <h2>FAQs</h2>
+                    <div class="faq">
+                        <div class="question">
+                            <h3>Why set up a free job alert?</h3>
+                            <i class="fas fa-caret-down"></i>
+
+                        </div>
+                        <div class="answer">
+                            <p>Our free job alert service helps you to get notified for jobs suiting your career goals
+                                and makes it easier for you to respond to job openings irectly from your inbox. Besides,
+                                it helps you to stay updated with the current job market and career opportunities, along
+                                with
+                                information
+                                about
+                                salary
+                                trends. It is highly beneficial for active as well as passive job seekers. By opting for
+                                free job
+                                alert service, we make sure you do not miss any openings based on your highly targeted
+                                and
+                                specific
+                                job matches.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="question">
+                            <h3>How do I get a job alert on my email ID?</h3>
+                            <i class="fas fa-caret-down"></i>
+
+                        </div>
+                        <div class="answer">
+                            <p>To get job notifications on your inbox, you need to sign in to shine.com or register with
+                                us.
+                                You
+                                will find a new tab ‘Create Job Alert’ on the top right side of the website. Fill out
+                                the
+                                details
+                                based on your profile and work area. You will start receiving job alerts when a
+                                recruiter
+                                will start
+                                posting vacancies on our job portal. You can create as many job alerts you wish to.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="question">
+                            <h3>How to get the best out of free job alert?</h3>
+                            <i class="fas fa-caret-down"></i>
+
+                        </div>
+                        <div class="answer">
+                            <p>You can fetch some of the best job opportunities by providing targeted and detailed
+                                information. The
+                                system is an automated mechanism which operates and generates matched jobs based on the
+                                details you
+                                provide. To narrow your feeds, you must provide specific keywords, salary details,
+                                experience,
+                                location, department and industry. If you do not fill out information for these fields,
+                                you
+                                will
+                                receive job notifications for all job openings. We highly recommend providing specific
+                                details while
+                                creating a free job alert.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="faq">
+                        <div class="question">
+                            <h3>Who can see my information provided to set up a job alert?</h3>
+                            <i class="fas fa-caret-down"></i>
+
+                        </div>
+                        <div class="answer">
+                            <p>We have a strict privacy policy of protecting personal information from being misused.
+                                Your
+                                data is
+                                kept safe in our databases. Manual access to your information is strictly prohibited,
+                                but
+                                the data
+                                may be used without your name and other personal information to study and develop better
+                                systems. It
+                                is also used with identifiers for manual job feeds and notifications without disclosing
+                                your
+                                personal information. You can view our privacy policy for more details on the subject.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <h1></h1>
+
+    <footer class="flex">
+        <div>
+            <div id="footer-div-left">
+                <ul class="flex">
+                    <li><strong>Job seekers</strong></li>
+                    <li><a href="">Browse Jobs</a></li>
+                    <li><a href="">Jobs Search</a></li>
+                    <li><a href="">Register Now</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Create Free Job Alert</a></li>
+                </ul>
+                <ul class="flex">
+                    <li><strong>Employers</strong></li>
+                    <li><a href="">Recruiter India</a></li>
+                    <li><a href="">Post Jobs</a></li>
+                </ul>
+                <ul class="flex">
+                    <li><strong>Partner Sites</strong></li>
+                    <li><a href="">English Mate</a></li>
+                    <li><a href="">Study Mate</a></li>
+                    <li><a href="">Hindustantimes.com</a></li>
+                    <li><a href="">Livemint.com</a></li>
+                    <li><a href="">Livehindustan.com</a></li>
+                    <li><a href="">OTTplay.com</a></li>
+                </ul>
+            </div>
+            <div id="fotter-div-left-bottom">
+                <ul class="flex">
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Cookie Policy</a></li>
+                    <li><a href="">Fraud Alert</a></li>
+                    <li><a href="">Business News</a></li>
+                    <li><a href="">English News</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Disclaimer</a></li>
+                    <li><a href="">Report a Job Posting</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <strong class="flex">Contact us
+                <div>
+                    <span>080-47105555</span>
+                    <a href="">contactus@shine.com</a>
+                </div>
+            </strong>
+            <strong class="flex">Follow us
+                <div>
+                    <span>
+                        <a href="https://www.linkedin.com/company/shinecom/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/Shinedotcom?lang=en">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.facebook.com/shinedotcom/">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </span>
+                </div>
+            </strong>
+            <strong>© 2021 HT Media Limited</strong>
+        </div>
+    </footer>
+
+    <script src="../javascript/alert.js"></script>
+</body>
+
+</html>
