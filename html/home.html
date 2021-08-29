@@ -1,0 +1,585 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4008f4a305.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4008f4a305.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/homefaq.css">
+</head>
+
+<body>
+    <header style="position:fixed; top:0">
+        <nav id="navbar" style="background-color: rgb(97, 43, 221);">
+            <div><a href="https://www.shine.com/">
+                    <div id="logo2"></div>
+                </a>
+            </div>
+            <div class="flex-display">
+                <div>
+                    <ul id="before">
+                        <li class="hover-color dropdown">
+                            <div class="flex">
+                                <span class="dropbtn">Search Jobs</span>
+                            </div>
+                            <div class="dropdown-content">
+                                <a href="#">Jobs in Top Cities</a>
+                                <a href="#">Jobs by Skills</a>
+                                <a href="#">Jobs by Courses</a>
+                                <a href="#">Jobs by Education</a>
+                                <a href="#">Jobs by Designation</a>
+                                <a href="#">Jobs by Company</a>
+                            </div>
+                        </li>
+                        <li class="hover-color dropdown">
+                            <div class="flex">
+                                <span class="dropbtn">Services</span>
+                            </div>
+                            <div class="dropdown-content">
+                                <a href="#">Digital Marketing</a>
+                                <a href="#">Data Science</a>
+                                <a href="#">Cloud Computing</a>
+                                <a href="#">GST</a>
+                                <a href="#">Project Management</a>
+                                <a href="#">Six Sigma</a>
+                            </div>
+                        </li>
+                        <li class="hover-color dropdown">
+                            <div class="flex">
+                                <span class="dropbtn">Resources</span>
+                            </div>
+                            <div class="dropdown-content">
+                                <a href="#">Blog</a>
+                                <a href="#">Resume Tips</a>
+                                <a href="#">Career Help</a>
+                                <a href="#">Career Prospects</a>
+                                <a href="#">Job Search Guidance</a>
+                                <a href="#">Interview Tips</a>
+                            </div>
+                        </li>
+                        <li class="hover-color dropbtn">Recruiter</li>
+                        <li id="career-guidence" class="flex career-guidence">
+                            <a href="https://learning.shine.com/user-intent" class="flex" style="align-items: center;">
+                                <span class="material-icons">lightbulb</span>
+                                <span>Career Guidance</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul id="after">
+                        <li class="hover-color"><a href="free-job-alerts.html"><button id="btn1">Create job
+                                    alert</button></a></li>
+                        <li id="job-alert"><a href="jobPosting.html"><button id="btn1">Post a job</button></a></li>
+                        <li class="flex hover-color" style="text-align: center;">
+                            <div style="width: 120px;">080-47105555
+                                <div style="font-size: x-small; opacity: 0.8;">9am - 6pm, Mon to Sat</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+    <div style="margin: 0px; padding: 0%;" id="upper1">
+        <div id="upper1a">
+            <h1>Growth on your mind?</h1>
+            <h2>Explore 300,000+ jobs</h2>
+            <div style="margin-top: 0%;" onclick="disapp()">
+                job title, skills
+            </div>
+        </div>
+        <div id="upper1b">
+            <button type="button" class="btn1b"><a href="register.html">Register for free</a></button>
+            <p id="popUp" style="cursor: pointer;">Sign in</p>
+        </div>
+        <div id="upper1c" style="display: none;">
+            <h3>Growth on your mind?</h3>
+            <span onclick="disapp2()"></span>
+            <input placeholder="Job title, skills">
+            <input placeholder="Location">
+            <input placeholder="Experience (Years)">
+            <button>Submit</button>
+        </div>
+    </div>
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="heading-div">
+                <h1>Sign-in</h1>
+                <!-- <script src="https://kit.fontawesome.com/4008f4a305.js" crossorigin="anonymous"></script> -->
+                <i class="fas fa-times" id="close-sign-up-form"></i>
+            </div>
+            <div class="inner-main-div">
+                <div class="inner-left-div">
+                    <div class="form-div">
+                        <form action="" id="signInDetail">
+                            <ul class="form-data-ul">
+                                <li>
+                                    <label for=""></label>
+                                    <input type="text" id="form-signIn-email" placeholder="Email">
+                                </li>
+                                <li>
+                                    <label for=""></label>
+                                    <input type="password" id="form-signIn-password" placeholder="Password">
+                                </li>
+
+                                <li class="display-flex">
+                                    <input type="checkbox" placeholder="Password">
+                                    <div class="display-flex forget-password">
+                                        <span>Keep me signed in</span>
+                                        <span>Forgot Password</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <button type="submit" id="form-submit">Login</button>
+                                </li>
+                                <li class="text-center">
+                                    <span>or</span>
+                                </li>
+                                <li>
+                                    <button type="submit" id="get-otp">Login with OTP</button>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <div class="inner-right-div">
+                    <ul>
+                        <li>
+                            <div>
+                                <i class="fab fa-google"></i>
+
+                                <div>
+                                    Sign-in with Google
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+
+                                <i class="fab fa-linkedin-in"></i>
+
+                                <div>
+                                    Sign-in with Linkedin
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+
+                                <i class="fab fa-facebook-square"></i>
+
+                                <div>
+                                    Sign-in with Facebook
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="bottom-div text-center">
+                <span>Don't have Shine account? <a href="register.html">REGISTER NOW</a></span>
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <div class="mid1">
+        <h3 id="head1">Top companies hiring now</h3>
+        <img src="https://static2.shine.com/r/m/images/employerbranding/ab28f0af876f42cb96302faaea9e1671.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/8ec12c71c03445248ec99942e16a812c.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/8b3d3868f9444657ad239ed43eb423b8.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/9f53b7d4345d41ac9b657b726b6b3349.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/da1f7501c8f740498dbb4b28fde081c2.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/f85756b6a88e4997beaf87c6f1bb5cfd.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/f548e2c309c24db1a8b9d4ff9d97b02e.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/6cf7d2611de84b7585d75db2f40e81b8.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/81604e5f42ee4f7bbcfda6f1fe1b7227.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/81604e5f42ee4f7bbcfda6f1fe1b7227.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/24d6c76bfae84a6f8bd18522f4744b3a.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/7300e03b716648699203cd0154942845.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/666b83a3c4974b4f92613fce536a4251.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/7f5bc2c5010f4e0fbff014205842ff27.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/700cc0d27c8b416bbfb9c2765652c9cd.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/ff4b1fd8bee240f7a7b694e6aa0bec6e.png">
+        <img src="https://static2.shine.com/r/m/images/employerbranding/6f1e554cc7fd4ab89210fb651db329ea.png">
+        <div style="clear: both;"></div>
+    </div>
+    <div class="viewAll">View all top companies</div>
+
+    <div>
+        <br><br><br>
+        <h2 id="head1">Cool places to work</h2>
+        <br>
+        <div class=picinpic>
+            <a href="https://www.genpact.com/">
+                <div class="elempic">
+                    <img
+                        src="https://static2.shine.com/r/m/images/employerbranding/c250bee50f5b490aac4b63fe281ab79e.png">
+                    <img
+                        src="https://static2.shine.com/r/m/images/employerbranding/4ba34994bc414de7984c38c9cee86ebe.png">
+                </div>
+            </a>
+
+            <a href="https://www.sbilife.co.in/">
+                <div class="elempic">
+                    <img
+                        src="https://static2.shine.com/r/m/images/employerbranding/7a22c70f27904e2e81d7ebd1066d55e1.png">
+                    <img
+                        src="https://static2.shine.com/r/m/images/employerbranding/a7277bda1c874825b9831cafaf6f759d.png">
+                </div>
+            </a>
+            <a href="https://www.infosys.com/">
+                <div class="elempic">
+                    <img
+                        src="https://static2.shine.com/r/m/images/employerbranding/26c83ce6d9df4733a9bbc06d2e3b8f0e.png">
+                    <img
+                        src="https://static2.shine.com/r/m/images/employerbranding/ed1796d6fc09422e883285a62c7d3733.png">
+                </div>
+            </a>
+            <a href="https://www.teleperformance.com/en-us">
+                <div class="elempic">
+                    <img
+                        src="https://static2.shine.com/r/m/images/employerbranding/d98a014b326648178fbb08eef46ac70e.png">
+                    <img
+                        src="https://static2.shine.com/r/m/images/employerbranding/6c23dfb3c9224480870c900b8dddf299.png">
+                </div>
+            </a>
+            <a href="https://www.adityabirla.com/">
+                <div class="elempic">
+                    <img
+                        src="https://static2.shine.com/r/m/images/employerbranding/608a7830f65e4ac4a70869e145c55c25.png">
+                    <img
+                        src="https://static2.shine.com/r/m/images/employerbranding/449660b6ea5c4aada2e211f4831cc945.png">
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="bestsell">
+        <h2>Our best selling Courses</h2>
+        <br>
+        <div class="bigA">
+            <div class="smallA">
+                <img style="float: right;padding: 10px; padding-left: 0px;"
+                    src="https://static1.shine.com/l/m/product_image/images_all/1536737243_2955.png" , width="120px" ,
+                    height="120px">
+                <div>
+                    <h3>Lean Six Sigma Expert Combo (GB + BB)</h3>
+                    <span>334 people bought</span>
+                    <br><br><br><br>
+                    <span>11278 jobs available</span>
+                </div>
+            </div>
+            <div class="smallA">
+                <img style="float: right;padding: 10px; padding-left: 0px;"
+                    src="https://static1.shine.com/l/m/product_image/images_all/1541158456_9921.png" , width="120px" ,
+                    height="120px">
+                <div>
+                    <h3>Data Science with Python</h3>
+                    <span>58 people bought</span>
+                    <br><br><br><br>
+                    <span>40920 jobs available</span>
+                </div>
+            </div>
+            <div class="smallA">
+                <img style="float: right;padding: 10px; padding-left: 0px;"
+                    src="https://static1.shine.com/l/m/product_image/images_all/1549266081_7610.png" , width="120px" ,
+                    height="120px">
+                <div>
+                    <h3>AI & Deep Learning with Tensor Flow</h3>
+                    <span>7 people bought</span>
+                    <br><br><br><br>
+                    <span>8688 jobs available</span>
+                </div>
+            </div>
+            <div class="smallA">
+                <img style="float: right;padding: 10px; padding-left: 0px;"
+                    src="https://static1.shine.com/l/m/product_image/images_all/1561360226_4430.png" , width="120px" ,
+                    height="120px">
+                <div>
+                    <h3>GST Practitioner Certification Course</h3>
+                    <span>359 people bought</span>
+                    <br><br><br><br>
+                    <span>14132 jobs available</span>
+                </div>
+            </div>
+            <div class="smallA">
+                <img style="float: right;padding: 10px; padding-left: 0px;"
+                    src="https://static1.shine.com/l/m/product_image/images_all/1564124425_1273.png" , width="120px" ,
+                    height="120px">
+                <div>
+                    <h3>AWS Architect Certification Training Combo</h3>
+                    <span>21 people bought</span>
+                    <br><br><br>
+                    <span>44356 jobs available</span>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="viewAll">View all courses</div>
+    </div>
+    <br><br><br><br>
+    <div style="height: 600px;">
+        <h3 id="head1">Browse jobs</h3>
+        <br><br>
+        <div id="nav">
+            <div onclick="click1()">Industry</div>
+            <div onclick="click2()">Department</div>
+            <div onclick="click3()">Location</div>
+            <div onclick="click4()">Designation</div>
+            <div onclick="click5()">Skills</div>
+        </div>
+        <br><br>
+        <div id="indus">
+            <div>IT - Software Jobs <span>(38840)</span></div>
+            <div>Recruitment Services Jobs <span>(30265)</span></div>
+            <div>BPO / Call Center Jobs <span>(9354)</span></div>
+            <div>Banking / Financial Services Jobs <span>(8547)</span></div>
+            <div>Management Consulting / Str... Jobs<span>(8530)</span> </div>
+            <div>Education / Training Jobs <span>(7203)</span></div>
+            <div>Manufacturing Jobs <span>(6235)</span></div>
+            <div>Telecom / ISP Jobs <span>(3538)</span></div>
+            <div>Medical / Healthcare Jobs <span>(2793)</span></div>
+            <div>Media / Entertainment Jobs <span>(2542)</span></div>
+            <div>Pharma / Biotech Jobs <span>(2030)</span></div>
+            <div>NBFC ( Non Banking Financia... Jobs <span>(1746)</span></div>
+            <div>Internet / E-Commerce Jobs<span>(1703)</span> </div>
+            <div>IT - Hardware / Networking Jobs <span>(1530)</span></div>
+            <div>Cement / Building Material Jobs <span>(1488)</span></div>
+            <div>Automobile / Auto Ancillaries Jobs <span>(1286)</span></div>
+            <div>Insurance Jobs <span>(1246)</span> </div>
+            <div>Engineering / Construction Jobs <span>(1193)</span></div>
+            <div>Oil & Gas / Petroleum Jobs <span>(1188)</span></div>
+            <div>Advertising / MR / PR / Events Jobs <span>(1167)</span></div>
+            <div>Consumer Durables / Electro... Jobs <span>(1118)</span></div>
+            <div>Logistics / Courier / Trans... Jobs <span>(1027)</span></div>
+            <div>Real Estate Jobs <span>(933)</span></div>
+            <div>Retail Jobs <span>(834)</span></div>
+            <div>Hotel / Restaurant Jobs <span>(792)</span></div>
+            <div>FMCG / F&B Jobs <span>(626)</span></div>
+            <div>Aviation / Airline Jobs <span>(532)</span></div>
+            <div>KPO / Analytics Jobs <span>(487)</span></div>
+            <div>Textile / Garments / Fashion Jobs <span>(403)</span></div>
+            <div>NGO / Social Work Jobs <span>(362)</span></div>
+        </div>
+        <div id="depart" style="display: none;">
+            <div>IT - Software Jobs <span>(64978)</span></div>
+            <div>Sales / BD Jobs <span>(31743)</span></div>
+            <div>Customer Service / Back Off... Jobs <span>(15967)</span></div>
+            <div>Finance / Accounts / Invest... Jobs <span>(6887)</span></div>
+            <div>Production / Maintenance / ... Jobs<span>(5269)</span></div>
+            <div>Marketing / Advertising / M... Jobs<span>(5051)</span></div>
+            <div> Education / Training / Lang... Jobs<span>(3387)</span></div>
+            <div> HR / Recruitment Jobs<span>(3089)</span></div>
+            <div>Quality / Testing (QA-QC) Jobs <span>(2819)</span></div>
+            <div>Medical / Healthcare Jobs <span>(2672)</span></div>
+            <div>IT - Hardware / Networking ... Jobs <span>(2475)</span></div>
+            <div> Administration / Front Offi... Jobs<span>(2379)</span></div>
+            <div>Engineering Design / Constr... Jobs <span>(2018)</span></div>
+            <div> SBU Head / CEO / Director /... Jobs<span>(1915)</span></div>
+            <div> Hotel / Restaurant Jobs<span>(1764)</span></div>
+            <div> Graphic Design / Web Design... Jobs<span>(1752)</span></div>
+            <div> Statistics / Analytics / Ac... Jobs<span>(1629)</span></div>
+            <div>Supply Chain / Purchase / I... Jobs <span>(1568)</span></div>
+            <div> Journalism / Content / Writing Jobs<span>(918)</span></div>
+            <div>TV / Film / Radio / Enterta... Jobs <span>( 853)</span></div>
+            <div>R&D / Product Design Jobs<span>(640)</span></div>
+            <div> Management Consulting / Str... Jobs<span>(464)</span></div>
+            <div>Architecture / Interior Design Jobs<span>( 419)</span></div>
+        </div>
+        <dis id="loc" style="display: none;">
+            <div>Bangalore Jobs<span>(35127)</span></div>
+            <div>Delhi Jobs<span>(27538)</span></div>
+            <div>Noida Jobs<span>(27538)</span></div>
+            <div>Gurgaon Jobs<span>(27538)</span></div>
+            <div>Mumbai Jobs<span>(21976)</span></div>
+            <div>Hyderabad Jobs<span>()</span></div>
+            <div>Kolkata Jobs<span>(14265)</span></div>
+            <div>Chennai Jobs<span>(12835)</span></div>
+            <div>Pune Jobs<span>(12511)</span></div>
+            <div>Ahmedabad Jobs<span>(5432)</span></div>
+        </dis>
+        <div id="desig" style="display: none;">
+            <div>Business Analyst Jobs</div>
+            <div>Software Engineer Jobs</div>
+            <div>Pharmacist Jobs</div>
+            <div>Java Developer Jobs</div>
+            <div>Project Manager Jobs</div>
+            <div>Hr Executive Jobs</div>
+            <div>Assistant Professor Jobs</div>
+            <div>Software Developer Jobs</div>
+            <div>Data Analyst Jobs</div>
+            <div>Company Secretary Jobs</div>
+            <div>Computer Operator Jobs</div>
+            <div>Supervisor Jobs</div>
+            <div>Police Jobs</div>
+            <div>Receptionist Jobs</div>
+            <div>Android Developer Jobs</div>
+            <div>Network Engineer Jobs</div>
+            <div>Data Entry Operator Jobs</div>
+            <div>Air Hostess Job</div>
+            <div>Chartered Accountant Jobs</div>
+        </div>
+        <div id="skills" style="display: none;">
+            <div>Online Jobs</div>
+            <div>Railway Jobs</div>
+            <div>Part Time Jobs</div>
+            <div>Data Entry Jobs</div>
+            <div>Freelance Jobs</div>
+            <div>Central Government Jobs</div>
+            <div>Mechanical Engineering Jobs</div>
+            <div>Civil Engineering Jobs</div>
+            <div>Iti Job</div>
+            <div>Fresher Jobs</div>
+            <div>Banking Jobs</div>
+            <div>Electrical Engineering Jobs</div>
+            <div>Teaching Jobs</div>
+            <div>Accounting Jobs</div>
+            <div>Digital Marketing Jobs</div>
+            <div>Content Writing Jobs</div>
+            <div>Mba Jobs</div>
+            <div>Bpo Jobs</div>
+        </div>
+    </div>
+    <section id="faq-sec">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <div class="question">
+                <h3>1.How can I find a job?</h3>
+                <i class="fas fa-caret-down"></i>
+
+            </div>
+            <div class="answer">
+                <p>You can start working as soon as you create your job profile on various portals, which lists numerous
+                    job opportunities. To apply, you need to create a profile with your resume attached and other
+                    relevant details mentioned. Review salary trends and experiment with various jobs. You can look out
+                    for jobs based on skills, designation, location, compensation, industry type etc.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h3>2. Where can I apply for a job?</h3>
+                <i class="fas fa-caret-down"></i>
+
+            </div>
+            <div class="answer">
+                <p>To apply for a job, you must start by deciding your field of work. Use advanced search tools and
+                    analyze if you meet the requirements posted by the recruiter. Make a list of companies, tailor your
+                    cover letter and track your job applications. <br>
+                    <b>Apply on:</b> Classified ads, social media, Google, Job boards, company websites, your network,
+                    job
+                    seminars etc.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h3>3. Should I apply for a job if I have no experience?</h3>
+                <i class="fas fa-caret-down"></i>
+
+            </div>
+            <div class="answer">
+                <p>If you think you can deliver the requirements of a job, you <b>can apply for the job</b>. However, if
+                    the job vacancy demands a specific skill set, you must consider the same. If you are a deserving
+                    candidate, years of experience won’t matter.
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h3>4. What is the most important thing to include in a resume/cover letter?</h3>
+                <i class="fas fa-caret-down"></i>
+
+            </div>
+            <div class="answer">
+                <p><b>Resume:</b> Your resume should be limited to one or two-page length according to expertise. It is
+                    essential to embed strong keywords in a resume to stand out in front of recruiters.
+                    <br>
+                    <b> Cover letter:</b> A cover letter should be of a single page. It should represent your work
+                    profile and why you are a deserving and best candidate.
+                </p>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
+<script>
+    function disapp() {
+        var elem1 = document.getElementById("upper1a");
+        elem1.style.display = "none";
+        var elem2 = document.getElementById("upper1b");
+        elem2.style.display = "none";
+        var elem3 = document.getElementById("upper1c");
+        elem3.style.display = "grid";
+    }
+    function disapp2() {
+        var elem1 = document.getElementById("upper1a");
+        elem1.style.display = "block";
+        var elem2 = document.getElementById("upper1b");
+        elem2.style.display = "block";
+        var elem3 = document.getElementById("upper1c");
+        elem3.style.display = "none"
+    }
+</script>
+<script>
+    function click1() {
+        document.getElementById("indus").style.display = "grid";
+        document.getElementById("depart").style.display = "none";
+        document.getElementById("loc").style.display = "none";
+        document.getElementById("desig").style.display = "none";
+        document.getElementById("skills").style.display = "none";
+
+    }
+
+    function click2() {
+        document.getElementById("indus").style.display = "none";
+        document.getElementById("depart").style.display = "grid";
+        document.getElementById("loc").style.display = "none";
+        document.getElementById("skills").style.display = "none";
+        document.getElementById("desig").style.display = "none";
+    }
+    function click3() {
+        document.getElementById("indus").style.display = "none";
+        document.getElementById("depart").style.display = "none";
+        document.getElementById("loc").style.display = "grid";
+        document.getElementById("desig").style.display = "none";
+        document.getElementById("skills").style.display = "none";
+    }
+    function click4() {
+        document.getElementById("indus").style.display = "none";
+        document.getElementById("depart").style.display = "none";
+        document.getElementById("loc").style.display = "none";
+        document.getElementById("desig").style.display = "grid";
+        document.getElementById("skills").style.display = "none";
+
+    }
+    function click5() {
+        document.getElementById("indus").style.display = "none";
+        document.getElementById("depart").style.display = "none";
+        document.getElementById("loc").style.display = "none";
+        document.getElementById("desig").style.display = "none";
+        document.getElementById("skills").style.display = "grid";
+
+    }
+</script>
+<script src="../javascript/signup.js"></script>
+<script src="../javascript/homefaq.js"></script>
+<script src="../javascript/jobDataBase.js"></script>
