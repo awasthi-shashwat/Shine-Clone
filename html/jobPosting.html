@@ -1,0 +1,1541 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document m</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/4008f4a305.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/jobPosting.css" />
+</head>
+
+<body>
+  <!-- chat box -->
+  <div class="chatBox">
+    <button type="button" class="chatButton">
+      <i class="icon-comment-dots"></i>
+    </button>
+  </div>
+
+  <!-- whole page -->
+  <div class="mainBody">
+    <!-- Nav bar -->
+    <div class="navBar">
+      <div class="container">
+        <!-- Left float of Nav bar -->
+        <div class="leftNav">
+          <a href="home.html" class="band_logo " aria-label="shinelink3"></a>
+          <ul>
+            <li><a>Home</a></li>
+            <li>
+              <a>About Us</a>
+            </li>
+            <li>
+              <a>Hiring Plans</a>
+            </li>
+            <li>
+              <a>Job Seeker?</a>
+            </li>
+            <li>
+              <a>HR Insider</a>
+            </li>
+
+          </ul>
+          </li>
+          </ul>
+        </div>
+        <!-- Right float of Nav bar -->
+        <!-- Number, mail -->
+        <div class="rightNav">
+          <ul>
+            <li>080-47105555</li>
+            <li>
+              <a href="mailto:recruiterservices@shine.com">recruiterservices@shine.com</a>
+            </li>
+          </ul>
+          <!-- Recriter login button -->
+          <div>
+            <button class="recruiterLoginbutton">
+              <a href="https://recruiter.shine.com/?utm_source=shine&utm_medium=header&utm_campaign=CandidateHeader"
+                style="color: #5d6dbe;">Recruiter login</a>
+            </button>
+
+          </div>
+        </div>
+        <div class="clearFloat"></div>
+      </div>
+
+
+    </div>
+
+    <!-- 2nd band  -->
+    <div class="package_base">
+      <div class="container container1">
+        <ul style="list-style-type: none;">
+          <li class="deactive" id="package_details_icon">
+            <strong>Package details</strong>
+            <span class="tick_logo package_tick show"></span>
+          </li>
+          <li class="Personal active" id="personal_details_icon">
+            <strong>Personal details</strong>
+            <span class="tick_logo personal_tick"></span>
+          </li>
+          <li class="payement" id="payment_details_icon">
+            <strong>Payment mode</strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container container1 register_form" id="personal_details_container" style="display: block">
+      <div class="post_form detail_payment acord_con lfloat">
+        <!-- unwanted info -->
+        <div class="lfloat right_box hidden-lg hidden-md">
+          <div class="price2 price1">
+
+
+          </div>
+
+
+        </div>
+        <!-- personal details form -->
+        <div class="box-sh">
+          <form class="animation">
+            <!-- Complete your details -->
+            <strong>
+              <span class="complete_details lfloat">Complete Your details</span>
+              <!-- Sign in -->
+              <span class="already_register rfloat"><a>Sign in</a></span>
+            </strong>
+            <ul class="new_form">
+              <li class="transform">
+                <label class="lbl">Email</label><input id="userEmail" class="inputStyle" type="text"
+                  placeholder="enter email id" />
+              </li>
+              <li class="transform phone_wrap">
+                <span class="c-code" style="color: rgba(128, 116, 116, 0.26); width: 4%;">+91</span><span
+                  class="m-code"><label class="lbl mobile_l">Mobile No</label><input type="text" name="mobile_no"
+                    class="text text2" placeholder="enter number" maxlength="10" required="" id="id_mobile_no" style="
+                        border-top: none;
+                        border-right: none;
+                        border-left: none;
+                        background: rgb(255, 255, 255);
+                      " aria-required="true" /><span class="name_exit"></span></span>
+              </li>
+              <li class="transform clear">
+                <label class="lbl">Company Name</label><input type="text" name="company_name" class="text"
+                  placeholder="enter company name" maxlength="100" required="" id="id_company_name" style="
+                      border-top: none;
+                      border-right: none;
+                      border-left: none;
+                      background: rgb(255, 255, 255);
+                    " aria-required="true" /><span class="name_exit" id="company_error"></span>
+              </li>
+              <li class="transform">
+                <label class="lbl">Name</label><input type="text" name="contact_name" class="text"
+                  placeholder="enter full name" maxlength="100" required="" id="id_contact_name" style="
+                      border-top: none;
+                      border-right: none;
+                      border-left: none;
+                      background: rgb(255, 255, 255);
+                    " aria-required="true" /><span class="name_exit"></span>
+              </li>
+              <li class="clear" style="display: grid; position: relative">
+                <!-- <label style="color: #666;font-size: 14px; display: block; margin-bottom: 10px;">Location</label> --><span
+                  class="select" id="selectlocation"
+                  style="width: 378.5px; display:flex; justify-content: space-between;">
+                  <div style="color: rgb(29, 27, 27);">Select Location</div> <i class="fas fa-caret-down"></i>
+                </span><select name="location" value="" title="" class="styled" placeholder="Location" required=""
+                  id="id_location" aria-required="true">
+                  <option value="" selected="">Select Location</option>
+                  <optgroup label="Top Cities">
+                    <option value="243">Bangalore</option>
+                    <option value="244">Chennai</option>
+                    <option value="406">Delhi</option>
+                    <option value="423">Gurugram</option>
+                    <option value="246">Hyderabad</option>
+                    <option value="247">Kolkata</option>
+                    <option value="437">Mumbai City</option>
+                    <option value="453">Noida</option>
+                    <option value="249">Pune</option>
+                  </optgroup>
+                  <optgroup label="Andaman-Nicobar">
+                    <option value="251">Port Blair</option>
+                    <option value="250">Other Andaman-Nicobar</option>
+                  </optgroup>
+                  <optgroup label="Andhra Pradesh">
+                    <option value="252">Anantpur</option>
+                    <option value="401">Guntakal</option>
+                    <option value="254">Guntur</option>
+                    <option value="246">Hyderabad</option>
+                    <option value="459">Kakinada</option>
+                    <option value="255">Kurnool</option>
+                    <option value="256">Nellore</option>
+                    <option value="398">Rajahmundry</option>
+                    <option value="399">Tirupati</option>
+                    <option value="400">Vijayawada</option>
+                    <option value="258">Vishakhapatnam</option>
+                    <option value="257">Other Andhra Pradesh</option>
+                    <option value="2501">Kadapa</option>
+                    <option value="2502">Ongole</option>
+                    <option value="2503">Srikakulam</option>
+                    <option value="2546">Vizianagaram</option>
+                    <option value="2554">Chittoor</option>
+                    <option value="2563">West Godavari</option>
+                    <option value="2567">Machilipatnam</option>
+                    <option value="2573">Amalapuram</option>
+                    <option value="2574">Tadepalligudem</option>
+                    <option value="2577">East Godavari</option>
+                    <option value="2589">Kavali</option>
+                    <option value="2597">Tirumala</option>
+                    <option value="2639">Prakasam</option>
+                  </optgroup>
+                  <optgroup label="Arunachal Pradesh">
+                    <option value="261">Itanagar</option>
+                    <option value="262">Other Arunachal Pradesh</option>
+                    <option value="2661">West Siang</option>
+                    <option value="2662">Dibang Valley</option>
+                    <option value="2663">East Siang</option>
+                    <option value="2664">West Kameng</option>
+                    <option value="2665">Changlang</option>
+                    <option value="2666">Tirap</option>
+                    <option value="2667">Anjaw</option>
+                    <option value="2668">Papum Pare</option>
+                    <option value="2669">Kurung Kumey</option>
+                    <option value="2670">Lohit</option>
+                    <option value="2671">East Kameng</option>
+                    <option value="2672">Tawang</option>
+                  </optgroup>
+                  <optgroup label="Assam">
+                    <option value="469">Dhubri</option>
+                    <option value="460">Dibrugarh</option>
+                    <option value="263">Guwahati</option>
+                    <option value="403">Silchar</option>
+                    <option value="264">Other Assam</option>
+                    <option value="2537">Jorhat</option>
+                    <option value="2545">Tinsukia</option>
+                    <option value="2556">Nagaon</option>
+                    <option value="2564">Golaghat</option>
+                    <option value="2612">Tarapur</option>
+                    <option value="2640">Bongaigaon</option>
+                    <option value="2641">Cachar</option>
+                    <option value="2642">Sivasagar</option>
+                    <option value="2643">Kamrup Metropolitan</option>
+                    <option value="2644">Goalpara</option>
+                    <option value="2645">Karimganj</option>
+                    <option value="2646">Nalbari</option>
+                    <option value="2647">Kamrup</option>
+                    <option value="2648">Sonitpur</option>
+                    <option value="2649">Barpeta</option>
+                    <option value="2650">Chirang</option>
+                    <option value="2651">Morigaon</option>
+                    <option value="2652">Lakhimpur</option>
+                    <option value="2653">Karbi Anglong</option>
+                    <option value="2654">Dhemaji</option>
+                    <option value="2655">Darrang</option>
+                    <option value="2656">Kokrajhar</option>
+                    <option value="2657">Dima Hasao</option>
+                    <option value="2658">Hailakandi</option>
+                    <option value="2659">Udalguri</option>
+                    <option value="2660">Baksa</option>
+                  </optgroup>
+                  <optgroup label="Bihar">
+                    <option value="266">Bhagalpur</option>
+                    <option value="470">Muzzafarpur</option>
+                    <option value="272">Patna</option>
+                    <option value="271">Other Bihar</option>
+                    <option value="2536">Muzaffarpur</option>
+                    <option value="2557">Samastipur</option>
+                    <option value="2570">Katihar</option>
+                    <option value="2593">Munger</option>
+                    <option value="2600">Arwal</option>
+                    <option value="2634">Darbhanga</option>
+                    <option value="2635">Gaya</option>
+                    <option value="2673">Kaimur</option>
+                    <option value="2674">Araria</option>
+                    <option value="2675">Bhojpur</option>
+                    <option value="2676">Kishanganj</option>
+                    <option value="2677">Sitamarhi</option>
+                    <option value="2678">Begusarai</option>
+                    <option value="2679">Purnia</option>
+                    <option value="2680">Lakhisarai</option>
+                    <option value="2681">Gopalganj</option>
+                    <option value="2682">Sheikhpura</option>
+                    <option value="2683">Nawada</option>
+                    <option value="2684">Rohtas</option>
+                    <option value="2685">Nalanda</option>
+                    <option value="2686">Supaul</option>
+                    <option value="2687">Buxar</option>
+                    <option value="2688">Saran</option>
+                    <option value="2689">Madhubani</option>
+                    <option value="2690">Khagaria</option>
+                    <option value="2691">Vaishali</option>
+                    <option value="2692">Jamui</option>
+                    <option value="2693">Jehanabad</option>
+                    <option value="2694">Madhepura</option>
+                    <option value="2695">Siwan</option>
+                    <option value="2696">Saharsa</option>
+                    <option value="2697">Sheohar</option>
+                    <option value="2777">Maharajganj</option>
+                  </optgroup>
+                  <optgroup label="Chandigarh Region">
+                    <option value="404">Chandigarh</option>
+                    <option value="442">Mohali</option>
+                    <option value="418">Panchkula</option>
+                  </optgroup>
+                  <optgroup label="Chattisgarh">
+                    <option value="405">Bhillai</option>
+                    <option value="275">Bilaspur</option>
+                    <option value="471">Korba</option>
+                    <option value="472">Raigarh</option>
+                    <option value="278">Raipur</option>
+                    <option value="277">Other Chattisgarh</option>
+                    <option value="2547">Bijapur</option>
+                    <option value="2558">Baloda Bazar</option>
+                    <option value="2565">Durg</option>
+                    <option value="2586">Dhamtari</option>
+                    <option value="2601">Janjgir Champa</option>
+                    <option value="2698">Rajnandgaon</option>
+                    <option value="2699">Surguja</option>
+                    <option value="2700">Uttar Bastar Kanker</option>
+                    <option value="2701">Dakshin Bastar Dantewada</option>
+                    <option value="2702">Mahasamund</option>
+                    <option value="2703">Koriya</option>
+                    <option value="2704">Bastar</option>
+                    <option value="2705">Kabirdham</option>
+                    <option value="2706">Narayanpur</option>
+                  </optgroup>
+                  <optgroup label="Dadar and Nagar Haveli">
+                    <option value="280">Silvassa</option>
+                    <option value="279">Other Dadar and Nagar Haveli</option>
+                    <option value="2633">Dadra Nagar Haveli</option>
+                  </optgroup>
+                  <optgroup label="Daman-Diu">
+                    <option value="281">Daman</option>
+                    <option value="282">Other Daman-Diu</option>
+                  </optgroup>
+                  <optgroup label="Delhi-NCR Region">
+                    <option value="406">Delhi</option>
+                    <option value="424">Faridabad</option>
+                    <option value="454">Ghaziabad</option>
+                    <option value="423">Gurugram</option>
+                    <option value="453">Noida</option>
+                  </optgroup>
+                  <optgroup label="Goa">
+                    <option value="284">Panaji</option>
+                    <option value="533">South Goa</option>
+                    <option value="534">North Goa</option>
+                    <option value="407">Vasco da Gama</option>
+                    <option value="283">Other Goa</option>
+                  </optgroup>
+                  <optgroup label="Gujarat">
+                    <option value="285">Ahmedabad</option>
+                    <option value="413">Anand</option>
+                    <option value="409">Ankleshwar</option>
+                    <option value="414">Bharuch</option>
+                    <option value="415">Bhavnagar</option>
+                    <option value="411">Bhuj</option>
+                    <option value="474">Gandhidham</option>
+                    <option value="286">Gandhinagar</option>
+                    <option value="412">Gir</option>
+                    <option value="287">Jamnagar</option>
+                    <option value="473">Junagarh</option>
+                    <option value="408">Kandla</option>
+                    <option value="461">Mehsana</option>
+                    <option value="416">Porbandar</option>
+                    <option value="289">Rajkot</option>
+                    <option value="290">Surat</option>
+                    <option value="291">Vadodara</option>
+                    <option value="417">Valsad</option>
+                    <option value="410">Vapi</option>
+                    <option value="288">Other Gujarat</option>
+                    <option value="2568">Halol</option>
+                    <option value="2581">Mundra</option>
+                    <option value="2636">Junagadh</option>
+                    <option value="2707">Dang</option>
+                    <option value="2708">Banaskantha</option>
+                    <option value="2709">Mahesana</option>
+                    <option value="2710">Amreli</option>
+                    <option value="2711">Navsari</option>
+                    <option value="2712">Tapi</option>
+                    <option value="2713">Patan</option>
+                    <option value="2714">Surendranagar</option>
+                    <option value="2715">Dahod</option>
+                    <option value="2716">Panchmahal</option>
+                  </optgroup>
+                  <optgroup label="Haryana">
+                    <option value="419">Ambala</option>
+                    <option value="475">Bhiwani</option>
+                    <option value="424">Faridabad</option>
+                    <option value="423">Gurugram</option>
+                    <option value="420">Hisar</option>
+                    <option value="421">Karnal</option>
+                    <option value="422">Kurukshetra</option>
+                    <option value="418">Panchkula</option>
+                    <option value="293">Panipat</option>
+                    <option value="476">Rewari</option>
+                    <option value="425">Rohtak</option>
+                    <option value="477">Sirsa</option>
+                    <option value="478">Sonipat</option>
+                    <option value="479">Yamunanagar</option>
+                    <option value="292">Other Haryana</option>
+                    <option value="2505">Manesar</option>
+                    <option value="2506">Bahadurgarh</option>
+                    <option value="2507">Bawal</option>
+                    <option value="2508">Kundli</option>
+                    <option value="2566">Jind</option>
+                    <option value="2607">Palwal</option>
+                    <option value="2611">Saha</option>
+                    <option value="2617">Nuh</option>
+                    <option value="2808">Jhajjar</option>
+                    <option value="2809">Kaithal</option>
+                    <option value="2810">Fatehabad</option>
+                  </optgroup>
+                  <optgroup label="Himachal Pradesh">
+                    <option value="462">Baddi</option>
+                    <option value="480">Bilaspur</option>
+                    <option value="481">Chamba</option>
+                    <option value="428">Dalhousie</option>
+                    <option value="427">Dharamsala</option>
+                    <option value="426">Kullu</option>
+                    <option value="482">Mandi</option>
+                    <option value="296">Shimla</option>
+                    <option value="483">Solan</option>
+                    <option value="295">Other Himachal Pradesh</option>
+                    <option value="2509">Manali</option>
+                    <option value="2560">Kangra</option>
+                    <option value="2576">Palampur</option>
+                    <option value="2579">Una</option>
+                    <option value="2871">Sirmaur</option>
+                  </optgroup>
+                  <optgroup label="Jammu-Kashmir">
+                    <option value="484">Anantnag</option>
+                    <option value="485">Baramulla</option>
+                    <option value="297">Jammu</option>
+                    <option value="299">Srinagar</option>
+                    <option value="298">Other Jammu-Kashmir</option>
+                    <option value="2619">Samba</option>
+                    <option value="2624">Pattan</option>
+                    <option value="2625">Uri</option>
+                    <option value="2872">Kulgam</option>
+                    <option value="2873">Pulwama</option>
+                    <option value="2874">Budgam</option>
+                    <option value="2875">Bandipore</option>
+                    <option value="2876">Ramban</option>
+                    <option value="2877">Baramulla</option>
+                    <option value="2878">Kathua</option>
+                    <option value="2879">Doda</option>
+                    <option value="2880">Udhampur</option>
+                    <option value="2881">Leh</option>
+                    <option value="2882">Kupwara</option>
+                    <option value="2883">Ganderbal</option>
+                    <option value="2884">Kargil</option>
+                    <option value="2885">Reasi</option>
+                    <option value="2886">Kishtwar</option>
+                  </optgroup>
+                  <optgroup label="Jharkhand">
+                    <option value="300">Bokaro</option>
+                    <option value="301">Dhanbad</option>
+                    <option value="303">Jamshedpur</option>
+                    <option value="305">Ranchi</option>
+                    <option value="304">Other Jharkhand</option>
+                    <option value="2626">Chas</option>
+                    <option value="2887">Saraikela Kharsawan</option>
+                    <option value="2888">Giridih</option>
+                    <option value="2889">Latehar</option>
+                    <option value="2890">Ramgarh</option>
+                    <option value="2891">Chatra</option>
+                    <option value="2892">Purbi Singhbhum</option>
+                    <option value="2893">Palamu</option>
+                    <option value="2894">Sahibganj</option>
+                    <option value="2895">Hazaribagh</option>
+                    <option value="2896">Dumka</option>
+                    <option value="2897">Koderma</option>
+                    <option value="2898">Deoghar</option>
+                    <option value="2899">Garhwa</option>
+                    <option value="2900">Gumla</option>
+                    <option value="2901">Godda</option>
+                    <option value="2902">Jamtara</option>
+                    <option value="2903">Khunti</option>
+                    <option value="2904">Pakur</option>
+                    <option value="2905">Lohardaga</option>
+                    <option value="2906">Simdega</option>
+                  </optgroup>
+                  <optgroup label="Karnataka">
+                    <option value="243">Bangalore</option>
+                    <option value="306">Belgaum</option>
+                    <option value="432">Bellary</option>
+                    <option value="433">Bidar</option>
+                    <option value="463">Davanagere</option>
+                    <option value="431">Dharwad</option>
+                    <option value="434">Gulbarga</option>
+                    <option value="429">Hubli</option>
+                    <option value="430">Kolar</option>
+                    <option value="307">Mangalore</option>
+                    <option value="308">Mysore</option>
+                    <option value="309">Other Karnataka</option>
+                    <option value="2510">Udupi</option>
+                    <option value="2511">Hospet</option>
+                    <option value="2512">Karwar</option>
+                    <option value="2534">Shimoga</option>
+                    <option value="2548">Raichur</option>
+                    <option value="2578">Haveri</option>
+                    <option value="2590">Nelamangala</option>
+                    <option value="2603">Sirsi</option>
+                    <option value="2610">Sira</option>
+                    <option value="2615">Wadi</option>
+                    <option value="2717">Dakshina Kannada</option>
+                    <option value="2718">Chikkaballapur</option>
+                    <option value="2719">Hassan</option>
+                    <option value="2720">Uttara Kannada</option>
+                    <option value="2721">Bagalkot</option>
+                    <option value="2722">Bangalore Rural</option>
+                    <option value="2723">Yadgir</option>
+                    <option value="2724">Ramanagara</option>
+                    <option value="2725">Chikmagalur</option>
+                    <option value="2726">Chitradurga</option>
+                    <option value="2727">Chamarajanagar</option>
+                    <option value="2728">Gadag</option>
+                    <option value="2729">Koppal</option>
+                    <option value="2730">Kodagu</option>
+                    <option value="2731">Mandya</option>
+                  </optgroup>
+                  <optgroup label="Kerala">
+                    <option value="486">Idukki</option>
+                    <option value="436">Kannur</option>
+                    <option value="488">Kasargod</option>
+                    <option value="310">Kochi</option>
+                    <option value="435">Kollam</option>
+                    <option value="311">Kottayam</option>
+                    <option value="312">Kozhikode</option>
+                    <option value="487">Malappuram</option>
+                    <option value="314">Palakkad</option>
+                    <option value="489">Pathanamthitta</option>
+                    <option value="315">Thiruvanananthapuram</option>
+                    <option value="316">Thrissur</option>
+                    <option value="490">Wayanad</option>
+                    <option value="313">Other Kerala</option>
+                    <option value="2535">Ernakulam</option>
+                    <option value="2598">Pala</option>
+                    <option value="2638">Thiruvananthapuram</option>
+                    <option value="2811">Kasaragod</option>
+                  </optgroup>
+                  <optgroup label="Lakshadweep">
+                    <option value="317">Kavaratti</option>
+                    <option value="318">Other Lakshadweep</option>
+                  </optgroup>
+                  <optgroup label="Madhya Pradesh">
+                    <option value="319">Bhopal</option>
+                    <option value="320">Gwalior</option>
+                    <option value="321">Indore</option>
+                    <option value="322">Jabalpur</option>
+                    <option value="491">Katni</option>
+                    <option value="492">Ratlam</option>
+                    <option value="493">Sagar</option>
+                    <option value="494">Satna</option>
+                    <option value="324">Ujjain</option>
+                    <option value="323">Other Madhya Pradesh</option>
+                    <option value="2513">Pithampur</option>
+                    <option value="2514">Mandideep</option>
+                    <option value="2550">Chhindwara</option>
+                    <option value="2551">Dewas</option>
+                    <option value="2552">Rewa</option>
+                    <option value="2571">Singrauli</option>
+                    <option value="2580">Balaghat</option>
+                    <option value="2605">Malanpur</option>
+                    <option value="2608">Barwani</option>
+                    <option value="2620">Raisen</option>
+                    <option value="2627">Tal</option>
+                    <option value="2907">Shajapur</option>
+                    <option value="2908">Panna</option>
+                    <option value="2909">Bhind</option>
+                    <option value="2910">Alirajpur</option>
+                    <option value="2911">Chhatarpur</option>
+                    <option value="2912">Anuppur</option>
+                    <option value="2913">Morena</option>
+                    <option value="2914">Betul</option>
+                    <option value="2915">Guna</option>
+                    <option value="2916">Ashoknagar</option>
+                    <option value="2917">Sehore</option>
+                    <option value="2918">Tikamgarh</option>
+                    <option value="2919">Shivpuri</option>
+                    <option value="2920">Dhar</option>
+                    <option value="2921">Sheopur</option>
+                    <option value="2922">Datia</option>
+                    <option value="2923">Mandla</option>
+                    <option value="2924">Damoh</option>
+                    <option value="2925">Seoni</option>
+                    <option value="2926">Khargone</option>
+                    <option value="2927">Vidisha</option>
+                    <option value="2928">Shahdol</option>
+                    <option value="2929">Rajgarh</option>
+                    <option value="2930">Burhanpur</option>
+                    <option value="2931">Umaria</option>
+                    <option value="2932">Khandwa</option>
+                    <option value="2933">Sidhi</option>
+                    <option value="2934">Neemuch</option>
+                    <option value="2935">Harda</option>
+                    <option value="2936">Jhabua</option>
+                  </optgroup>
+                  <optgroup label="Maharashtra">
+                    <option value="325">Ahmednagar</option>
+                    <option value="495">Akola</option>
+                    <option value="496">Amravati</option>
+                    <option value="326">Aurangabad</option>
+                    <option value="464">Chandrapur</option>
+                    <option value="497">Dhule</option>
+                    <option value="327">Jalgaon</option>
+                    <option value="328">Kolhapur</option>
+                    <option value="535">Palghar</option>
+                    <option value="536">Raigad</option>
+                    <option value="498">Latur</option>
+                    <option value="437">Mumbai City</option>
+                    <option value="329">Nagpur</option>
+                    <option value="499">Nanded</option>
+                    <option value="330">Nashik</option>
+                    <option value="522">Navi Mumbai</option>
+                    <option value="249">Pune</option>
+                    <option value="500">Ratnagiri</option>
+                    <option value="501">Sangli</option>
+                    <option value="502">Satara</option>
+                    <option value="2515">Kalyan</option>
+                    <option value="2516">Vasai</option>
+                    <option value="2517">Bhiwandi</option>
+                    <option value="2518">Panvel</option>
+                    <option value="2519">Dombivali</option>
+                    <option value="2520">Baramati</option>
+                    <option value="2521">Pimpri Chinchwad</option>
+                    <option value="2522">Ambernath</option>
+                    <option value="2523">Boisar</option>
+                    <option value="332">Solapur</option>
+                    <option value="523">Thane</option>
+                    <option value="503">Yavatmal</option>
+                    <option value="331">Other Maharashtra</option>
+                    <option value="2549">Wardha</option>
+                    <option value="2555">Kharghar</option>
+                    <option value="2562">Chakan</option>
+                    <option value="2582">Mira Bhayandar</option>
+                    <option value="2584">Shirdi</option>
+                    <option value="2613">Vita</option>
+                    <option value="2621">Manor</option>
+                    <option value="2732">Gadchiroli</option>
+                    <option value="2733">Ahmednagar</option>
+                    <option value="2734">Nandurbar</option>
+                    <option value="2735">Jalna</option>
+                    <option value="2736">Gondia</option>
+                    <option value="2737">Sindhudurg</option>
+                    <option value="2738">Hingoli</option>
+                    <option value="2739">Bhandara</option>
+                    <option value="2740">Osmanabad</option>
+                    <option value="2741">Parbhani</option>
+                  </optgroup>
+                  <optgroup label="Manipur">
+                    <option value="333">Imphal</option>
+                    <option value="334">Other Manipur</option>
+                    <option value="2812">Bishnupur</option>
+                    <option value="2813">Thoubal</option>
+                    <option value="2814">Churachandpur</option>
+                    <option value="2815">Senapati</option>
+                    <option value="2816">Imphal West</option>
+                  </optgroup>
+                  <optgroup label="Meghalaya">
+                    <option value="336">Shillong</option>
+                    <option value="335">Other Meghalaya</option>
+                    <option value="2817">South Garo Hills</option>
+                    <option value="2818">East Khasi Hills</option>
+                    <option value="2819">West Khasi Hills</option>
+                    <option value="2820">Ribhoi</option>
+                    <option value="2821">East Garo Hills</option>
+                    <option value="2822">West Garo Hills</option>
+                  </optgroup>
+                  <optgroup label="Mizoram">
+                    <option value="337">Aizawl</option>
+                    <option value="338">Other Mizoram</option>
+                    <option value="2823">Kolasib</option>
+                    <option value="2824">Champhai</option>
+                    <option value="2825">Lunglei</option>
+                    <option value="2826">Lawngtlai</option>
+                    <option value="2827">Mamit</option>
+                    <option value="2828">Serchhip</option>
+                    <option value="2829">Saiha</option>
+                  </optgroup>
+                  <optgroup label="Nagaland">
+                    <option value="440">Dimapur</option>
+                    <option value="339">Kohima</option>
+                    <option value="340">Other Nagaland</option>
+                    <option value="2830">Mokokchung</option>
+                    <option value="2831">Peren</option>
+                    <option value="2832">Kiphire</option>
+                    <option value="2833">Longleng</option>
+                    <option value="2834">Phek</option>
+                    <option value="2835">Zunheboto</option>
+                    <option value="2836">Tuensang</option>
+                    <option value="2837">Wokha</option>
+                  </optgroup>
+                  <optgroup label="Orrisa">
+                    <option value="341">Bhubaneswar</option>
+                    <option value="342">Cuttack</option>
+                    <option value="504">Jharsuguda</option>
+                    <option value="465">Paradeep</option>
+                    <option value="344">Puri</option>
+                    <option value="441">Rourkela</option>
+                    <option value="505">Sambalpur</option>
+                    <option value="343">Other Odisha</option>
+                    <option value="2524">Balangir</option>
+                    <option value="2595">Koraput</option>
+                    <option value="2599">Kandhamal</option>
+                    <option value="2602">Nuapada</option>
+                    <option value="2838">Ganjam</option>
+                    <option value="2839">Jajapur</option>
+                    <option value="2840">Angul</option>
+                    <option value="2841">Malkangiri</option>
+                    <option value="2842">Khordha</option>
+                    <option value="2843">Bargarh</option>
+                    <option value="2844">Mayurbhanj</option>
+                    <option value="2845">Bhadrak</option>
+                    <option value="2846">Boudh</option>
+                    <option value="2847">Kalahandi</option>
+                    <option value="2848">Dhenkanal</option>
+                    <option value="2849">Rayagada</option>
+                    <option value="2851">Jagatsinghpur</option>
+                    <option value="2852">Gajapati</option>
+                    <option value="2853">Kendrapara</option>
+                  </optgroup>
+                  <optgroup label="Pondicherry">
+                    <option value="346">Pondicherry</option>
+                    <option value="2561">Karaikal</option>
+                    <option value="2937">Mahe</option>
+                    <option value="2938">Yanam</option>
+                  </optgroup>
+                  <optgroup label="Punjab">
+                    <option value="347">Amritsar</option>
+                    <option value="444">Bathinda</option>
+                    <option value="506">Fatehgarh Sahib</option>
+                    <option value="507">Ferozpur</option>
+                    <option value="508">Gurdaspur</option>
+                    <option value="509">Hoshiarpur</option>
+                    <option value="348">Jalandhar</option>
+                    <option value="510">Kapurthala</option>
+                    <option value="349">Ludhiana</option>
+                    <option value="511">Moga</option>
+                    <option value="442">Mohali</option>
+                    <option value="443">Pathankot</option>
+                    <option value="445">Patiala</option>
+                    <option value="512">Ropar</option>
+                    <option value="513">Sangrur</option>
+                    <option value="350">Other Punjab</option>
+                    <option value="2525">Barnala</option>
+                    <option value="2543">Zirakpur</option>
+                    <option value="2572">Faridkot</option>
+                    <option value="2606">Morinda</option>
+                    <option value="2628">Apra</option>
+                    <option value="2939">Rupnagar</option>
+                    <option value="2940">Shahid Bhagat Singh Nagar</option>
+                    <option value="2941">Mansa</option>
+                    <option value="2942">Muktsar</option>
+                  </optgroup>
+                  <optgroup label="Rajasthan">
+                    <option value="351">Ajmer</option>
+                    <option value="514">Alwar</option>
+                    <option value="516">Bhilwara</option>
+                    <option value="515">Bikaner</option>
+                    <option value="353">Jaipur</option>
+                    <option value="354">Jaisalmer</option>
+                    <option value="355">Jodhpur</option>
+                    <option value="356">Kota</option>
+                    <option value="358">Udaipur</option>
+                    <option value="357">Other Rajasthan</option>
+                    <option value="2526">Bhiwadi</option>
+                    <option value="2559">Neemrana</option>
+                    <option value="2583">Banswara</option>
+                    <option value="2604">Barmer</option>
+                    <option value="2742">Sirohi</option>
+                    <option value="2743">Jalore</option>
+                    <option value="2744">Sikar</option>
+                    <option value="2745">Jhalawar</option>
+                    <option value="2746">Tonk</option>
+                    <option value="2747">Rajsamand</option>
+                    <option value="2748">Baran</option>
+                    <option value="2749">Jhunjhunu</option>
+                    <option value="2750">Pali</option>
+                    <option value="2751">Dausa</option>
+                    <option value="2752">Dhaulpur</option>
+                    <option value="2753">Chittorgarh</option>
+                    <option value="2754">Nagaur</option>
+                    <option value="2755">Bharatpur</option>
+                    <option value="2756">Hanumangarh</option>
+                    <option value="2757">Churu</option>
+                    <option value="2758">Bundi</option>
+                    <option value="2759">Pratapgarh</option>
+                    <option value="2760">Dungarpur</option>
+                    <option value="2761">Sawai Madhopur</option>
+                    <option value="2762">Karauli</option>
+                  </optgroup>
+                  <optgroup label="Sikkim">
+                    <option value="359">Gangtok</option>
+                    <option value="360">Other Sikkim</option>
+                    <option value="2854">Jorethang</option>
+                    <option value="2855">Mangan</option>
+                    <option value="2856">Namchi</option>
+                    <option value="2857">Nayabazar</option>
+                    <option value="2858">Rangpo</option>
+                    <option value="2859">Rhenak</option>
+                    <option value="2860">Singtam</option>
+                  </optgroup>
+                  <optgroup label="Tamil Nadu">
+                    <option value="2504">Tambaram</option>
+                    <option value="2527">Kumbakonam</option>
+                    <option value="2528">Namakkal</option>
+                    <option value="2529">Theni</option>
+                    <option value="2530">Kodaikanal</option>
+                    <option value="2531">Sivakasi</option>
+                    <option value="244">Chennai</option>
+                    <option value="524">Kanchipuram</option>
+                    <option value="525">Vilupuram</option>
+                    <option value="526">Nagapattinam</option>
+                    <option value="527">Sivagangai</option>
+                    <option value="528">Krishnagiri</option>
+                    <option value="529">Dharmapuri</option>
+                    <option value="530">Ramanathapuram</option>
+                    <option value="531">Pudukottai</option>
+                    <option value="532">Kanyakumari</option>
+                    <option value="361">Coimbatore</option>
+                    <option value="450">Cuddalore</option>
+                    <option value="362">Erode</option>
+                    <option value="446">Hosur</option>
+                    <option value="364">Madurai</option>
+                    <option value="447">Nagercoil</option>
+                    <option value="448">Ooty</option>
+                    <option value="366">Salem</option>
+                    <option value="451">Thanjavur</option>
+                    <option value="452">Thirunelveli</option>
+                    <option value="367">Tiruchirappalli</option>
+                    <option value="449">Tuticorin</option>
+                    <option value="368">Vellore</option>
+                    <option value="365">Other Tamil Nadu</option>
+                    <option value="2538">Karur</option>
+                    <option value="2540">Dindigul</option>
+                    <option value="2542">Ambattur</option>
+                    <option value="2575">Porur</option>
+                    <option value="2591">Medavakkam</option>
+                    <option value="2592">Neyveli</option>
+                    <option value="2623">Tiruchengode</option>
+                    <option value="2861">Nilgiris</option>
+                    <option value="2862">Pudukkottai</option>
+                    <option value="2863">Virudhunagar</option>
+                    <option value="2864">Thoothukudi</option>
+                    <option value="2865">Viluppuram</option>
+                    <option value="2866">Tiruvannamalai</option>
+                    <option value="2867">Ariyalur</option>
+                    <option value="2868">Perambalur</option>
+                    <option value="2869">Sivaganga</option>
+                    <option value="2870">Thiruvarur</option>
+                  </optgroup>
+                  <optgroup label="Telangana">
+                    <option value="246">Hyderabad</option>
+                    <option value="402">Nizamabad</option>
+                    <option value="260">Warangal</option>
+                    <option value="458">Other Telangana</option>
+                  </optgroup>
+                  <optgroup label="Tripura">
+                    <option value="369">Agartala</option>
+                    <option value="370">Other Tripura</option>
+                    <option value="2943">Dhalai</option>
+                  </optgroup>
+                  <optgroup label="Uttar Pradesh">
+                    <option value="371">Agra</option>
+                    <option value="372">Aligarh</option>
+                    <option value="373">Allahabad</option>
+                    <option value="374">Bareilly</option>
+                    <option value="455">Faizabad</option>
+                    <option value="454">Ghaziabad</option>
+                    <option value="375">Gorakhpur</option>
+                    <option value="377">Kanpur</option>
+                    <option value="378">Lucknow</option>
+                    <option value="379">Mathura</option>
+                    <option value="380">Meerut</option>
+                    <option value="381">Moradabad</option>
+                    <option value="517">Muzzafarnagar</option>
+                    <option value="453">Noida</option>
+                    <option value="466">Saharanpur</option>
+                    <option value="385">Varanasi</option>
+                    <option value="383">Other Uttar Pradesh</option>
+                    <option value="2539">Jhansi</option>
+                    <option value="2544">Muzaffarnagar</option>
+                    <option value="2569">Firozabad</option>
+                    <option value="2587">Mau</option>
+                    <option value="2594">Mainpuri</option>
+                    <option value="2596">Hamirpur</option>
+                    <option value="2616">Orai</option>
+                    <option value="2622">Patti</option>
+                    <option value="2632">Bijnor</option>
+                    <option value="2763">Unnao</option>
+                    <option value="2764">Auraiya</option>
+                    <option value="2765">Baghpat</option>
+                    <option value="2766">Mirzapur</option>
+                    <option value="2767">Rampur</option>
+                    <option value="2768">Ambedkar Nagar</option>
+                    <option value="2769">Etah</option>
+                    <option value="2770">Shahjahanpur</option>
+                    <option value="2771">Budaun</option>
+                    <option value="2772">Kasganj</option>
+                    <option value="2773">Sultanpur</option>
+                    <option value="2774">Farrukhabad</option>
+                    <option value="2775">Azamgarh</option>
+                    <option value="2776">Amroha</option>
+                    <option value="2778">Sonbhadra</option>
+                    <option value="2779">Bulandshahr</option>
+                    <option value="2780">Banda</option>
+                    <option value="2781">Raebareli</option>
+                    <option value="2782">Sant Kabir Nagar</option>
+                    <option value="2783">Ghazipur</option>
+                    <option value="2784">Chandauli</option>
+                    <option value="2785">Bahraich</option>
+                    <option value="2786">Fatehpur</option>
+                    <option value="2787">Etawah</option>
+                    <option value="2788">Balrampur</option>
+                    <option value="2789">Lalitpur</option>
+                    <option value="2790">Jaunpur</option>
+                    <option value="2791">Barabanki</option>
+                    <option value="2792">Siddharthnagar</option>
+                    <option value="2793">Pilibhit</option>
+                    <option value="2794">Basti</option>
+                    <option value="2795">Hardoi</option>
+                    <option value="2796">Sant Ravidas Nagar</option>
+                    <option value="2797">Deoria</option>
+                    <option value="2798">Shravasti</option>
+                    <option value="2799">Gautam Buddha Nagar</option>
+                    <option value="2800">Sitapur</option>
+                    <option value="2801">Mahoba</option>
+                    <option value="2802">Kannauj</option>
+                    <option value="2803">Chitrakoot</option>
+                    <option value="2804">Gonda</option>
+                    <option value="2805">Hathras</option>
+                    <option value="2806">Kushinagar</option>
+                    <option value="2807">Jalaun</option>
+                  </optgroup>
+                  <optgroup label="Uttarakhand">
+                    <option value="386">Dehradun</option>
+                    <option value="467">Haldwani</option>
+                    <option value="519">Haridwar</option>
+                    <option value="518">Kashipur</option>
+                    <option value="520">Nainital</option>
+                    <option value="456">Roorkee</option>
+                    <option value="521">Rudrapur</option>
+                    <option value="389">Other Uttarakhand</option>
+                    <option value="2541">Rishikesh</option>
+                    <option value="2585">Mussoorie</option>
+                    <option value="2609">Almora</option>
+                    <option value="2629">Lansdowne</option>
+                    <option value="2944">Chamoli</option>
+                    <option value="2945">Bageshwar</option>
+                    <option value="2946">Udham Singh Nagar</option>
+                    <option value="2947">Champawat</option>
+                    <option value="2948">Uttarkashi</option>
+                    <option value="2949">Tehri Garhwal</option>
+                  </optgroup>
+                  <optgroup label="West Bengal">
+                    <option value="393">Asansol</option>
+                    <option value="468">Burdwan</option>
+                    <option value="395">Durgapur</option>
+                    <option value="396">Haldia</option>
+                    <option value="457">Kharagpur</option>
+                    <option value="247">Kolkata</option>
+                    <option value="397">Siliguri</option>
+                    <option value="391">Other West Bengal</option>
+                    <option value="2532">Hooghly</option>
+                    <option value="2553">Bankura</option>
+                    <option value="2588">Nadia</option>
+                    <option value="2614">Adra</option>
+                    <option value="2630">Bally</option>
+                    <option value="2631">Haripur</option>
+                    <option value="2850">Nayagarh</option>
+                    <option value="2950">Puruliya</option>
+                    <option value="2951">Birbhum</option>
+                    <option value="2952">Malda</option>
+                    <option value="2953">Murshidabad</option>
+                    <option value="2954">Howrah</option>
+                    <option value="2955">Bardhaman</option>
+                    <option value="2956">Jalpaiguri</option>
+                    <option value="2957">Purba Medinipur</option>
+                    <option value="2958">Darjeeling</option>
+                    <option value="2959">Dakshin Dinajpur</option>
+                    <option value="2960">Uttar Dinajpur</option>
+                  </optgroup>
+                  <optgroup label="International Locations">
+                    <option value="1">Afghanistan</option>
+                    <option value="2">Albania</option>
+                    <option value="3">Algeria</option>
+                    <option value="4">American Samoa</option>
+                    <option value="5">Andora</option>
+                    <option value="6">Angola</option>
+                    <option value="7">Anguilla</option>
+                    <option value="8">Antarctica</option>
+                    <option value="9">Antigua and Barbuda</option>
+                    <option value="10">Argentina</option>
+                    <option value="11">Armenia</option>
+                    <option value="12">Aruba</option>
+                    <option value="13">Australia</option>
+                    <option value="14">Austria</option>
+                    <option value="15">Azerbaijan</option>
+                    <option value="16">Bahamas</option>
+                    <option value="17">Bahrain</option>
+                    <option value="18">Bangladesh</option>
+                    <option value="19">Barbados</option>
+                    <option value="20">Belarus</option>
+                    <option value="21">Belgium</option>
+                    <option value="22">Belize</option>
+                    <option value="23">Benin</option>
+                    <option value="24">Bermuda</option>
+                    <option value="25">Bhutan</option>
+                    <option value="26">Bolivia</option>
+                    <option value="27">Bosnia and Herzegovina</option>
+                    <option value="28">Botswana</option>
+                    <option value="29">Bouvet Island</option>
+                    <option value="30">Brazil</option>
+                    <option value="31">British Indian Ocean Territory</option>
+                    <option value="32">Brunei Darussalam</option>
+                    <option value="33">Bulgaria</option>
+                    <option value="34">Burkina Faso</option>
+                    <option value="35">Burundi</option>
+                    <option value="36">Cambodia</option>
+                    <option value="37">Cameroon</option>
+                    <option value="38">Canada</option>
+                    <option value="39">Cape Verde</option>
+                    <option value="40">Cayman Islands</option>
+                    <option value="41">Central African Republic</option>
+                    <option value="42">Chad</option>
+                    <option value="43">Chile</option>
+                    <option value="44">China</option>
+                    <option value="45">Christmas Island</option>
+                    <option value="46">Cocos (Keeling) Islands</option>
+                    <option value="47">Colombia</option>
+                    <option value="48">Comoros</option>
+                    <option value="49">Congo</option>
+                    <option value="50">Cook Islands</option>
+                    <option value="51">Costa Rica</option>
+                    <option value="52">Croatia</option>
+                    <option value="53">Cuba</option>
+                    <option value="54">Cyprus</option>
+                    <option value="55">Czech Republic</option>
+                    <option value="56">Denmark</option>
+                    <option value="57">Djibouti</option>
+                    <option value="58">Dominica</option>
+                    <option value="59">Dominican Republic</option>
+                    <option value="60">East Timor</option>
+                    <option value="61">Ecuador</option>
+                    <option value="62">Egypt</option>
+                    <option value="63">El Salvador</option>
+                    <option value="64">Equatorial Guinea</option>
+                    <option value="65">Eritrea</option>
+                    <option value="66">Estonia</option>
+                    <option value="67">Ethiopia</option>
+                    <option value="68">Falkland Islands</option>
+                    <option value="69">Faroe Islands</option>
+                    <option value="70">Fiji</option>
+                    <option value="71">Finland</option>
+                    <option value="72">France</option>
+                    <option value="73">France (European Territory)</option>
+                    <option value="74">French Guiana</option>
+                    <option value="75">French Polynesia</option>
+                    <option value="76">French Southern Territories</option>
+                    <option value="77">Gabon</option>
+                    <option value="78">Gambia</option>
+                    <option value="79">Georgia</option>
+                    <option value="80">Germany</option>
+                    <option value="81">Ghana</option>
+                    <option value="82">Gibraltar</option>
+                    <option value="83">Greece</option>
+                    <option value="84">Greenland</option>
+                    <option value="85">Grenada</option>
+                    <option value="86">Guadeloupe</option>
+                    <option value="87">Guam</option>
+                    <option value="88">Guatemala</option>
+                    <option value="89">Guinea</option>
+                    <option value="90">Guinea Bissau</option>
+                    <option value="91">Guyana</option>
+                    <option value="92">Haiti</option>
+                    <option value="93">Heard and McDonald Islands</option>
+                    <option value="94">Honduras</option>
+                    <option value="95">Hong Kong</option>
+                    <option value="96">Hungary</option>
+                    <option value="97">Iceland</option>
+                    <option value="98">Indonesia</option>
+                    <option value="99">Iran</option>
+                    <option value="100">Iraq</option>
+                    <option value="101">Ireland</option>
+                    <option value="102">Israel</option>
+                    <option value="103">Italy</option>
+                    <option value="104">Ivory Coast</option>
+                    <option value="105">Jamaica</option>
+                    <option value="106">Japan</option>
+                    <option value="107">Jordan</option>
+                    <option value="108">Kazakhstan</option>
+                    <option value="109">Kenya</option>
+                    <option value="110">Kiribati</option>
+                    <option value="111">Kuwait</option>
+                    <option value="112">Kyrgyzstan</option>
+                    <option value="113">Laos</option>
+                    <option value="114">Latvia</option>
+                    <option value="115">Lebanon</option>
+                    <option value="116">Lesotho</option>
+                    <option value="117">Liberia</option>
+                    <option value="118">Libya</option>
+                    <option value="119">Liechtenstein</option>
+                    <option value="120">Lithuania</option>
+                    <option value="121">Luxembourg</option>
+                    <option value="122">Macau</option>
+                    <option value="123">Macedonia</option>
+                    <option value="124">Madagascar</option>
+                    <option value="125">Malawi</option>
+                    <option value="126">Malaysia</option>
+                    <option value="127">Maldives</option>
+                    <option value="128">Mali</option>
+                    <option value="129">Malta</option>
+                    <option value="130">MarshIslands</option>
+                    <option value="131">Martinique</option>
+                    <option value="132">Mauritania</option>
+                    <option value="133">Mauritius</option>
+                    <option value="134">Mayotte</option>
+                    <option value="135">Mexico</option>
+                    <option value="136">Micronesia</option>
+                    <option value="137">Moldova</option>
+                    <option value="138">Monaco</option>
+                    <option value="139">Mongolia</option>
+                    <option value="140">Montserrat</option>
+                    <option value="141">Morocco</option>
+                    <option value="142">Mozambique</option>
+                    <option value="143">Myanmar</option>
+                    <option value="144">Namibia</option>
+                    <option value="145">Nauru</option>
+                    <option value="146">Nepal</option>
+                    <option value="147">Netherlands</option>
+                    <option value="148">Netherlands Antilles</option>
+                    <option value="149">Neutral Zone</option>
+                    <option value="150">New Caledonia</option>
+                    <option value="151">New Zealand</option>
+                    <option value="152">Nicaragua</option>
+                    <option value="153">Niger</option>
+                    <option value="154">Nigeria</option>
+                    <option value="155">Niue</option>
+                    <option value="156">Norfolk Island</option>
+                    <option value="157">North Korea</option>
+                    <option value="158">Northern Mariana Islands</option>
+                    <option value="159">Norway</option>
+                    <option value="160">Oman</option>
+                    <option value="161">Pakistan</option>
+                    <option value="162">Palau</option>
+                    <option value="163">Panama</option>
+                    <option value="164">Papua New Guinea</option>
+                    <option value="165">Paraguay</option>
+                    <option value="166">Peru</option>
+                    <option value="167">Philippines</option>
+                    <option value="168">Pitcairn Island</option>
+                    <option value="169">Poland</option>
+                    <option value="170">Portugal</option>
+                    <option value="171">Puerto Rico</option>
+                    <option value="172">Qatar</option>
+                    <option value="173">Reunion</option>
+                    <option value="174">Romania</option>
+                    <option value="175">Russia</option>
+                    <option value="176">Rwanda</option>
+                    <option value="177">Saint Helena</option>
+                    <option value="178">Saint Kitts and Nevis</option>
+                    <option value="179">Saint Lucia</option>
+                    <option value="180">Saint Pierre and Miquelon</option>
+                    <option value="181">
+                      Saint Vincent and The Grenadines
+                    </option>
+                    <option value="182">Samoa</option>
+                    <option value="183">San Marino</option>
+                    <option value="184">Sao Tome and Principe</option>
+                    <option value="185">Saudi Arabia</option>
+                    <option value="186">Senegal</option>
+                    <option value="187">Serbia and Montenegro</option>
+                    <option value="188">Seychelles</option>
+                    <option value="189">Sierra Leone</option>
+                    <option value="190">Singapore</option>
+                    <option value="191">Slovakia</option>
+                    <option value="192">Slovenia</option>
+                    <option value="193">Solomon Islands</option>
+                    <option value="194">Somalia</option>
+                    <option value="195">South Africa</option>
+                    <option value="196">South America</option>
+                    <option value="197">
+                      South Georgia and South Sandwich Islands
+                    </option>
+                    <option value="198">South Korea</option>
+                    <option value="199">Spain</option>
+                    <option value="200">Sri Lanka</option>
+                    <option value="201">Sudan</option>
+                    <option value="202">Suriname</option>
+                    <option value="203">
+                      Svalbard and Jan Mayen Islands
+                    </option>
+                    <option value="204">Swaziland</option>
+                    <option value="205">Sweden</option>
+                    <option value="206">Switzerland</option>
+                    <option value="207">Syria</option>
+                    <option value="208">Taiwan</option>
+                    <option value="209">Tajikistan</option>
+                    <option value="210">Tanzania</option>
+                    <option value="211">Thailand</option>
+                    <option value="212">Togo</option>
+                    <option value="213">Tokelau</option>
+                    <option value="214">Tonga</option>
+                    <option value="215">Trinidad and Tobago</option>
+                    <option value="216">Tunisia</option>
+                    <option value="217">Turkey</option>
+                    <option value="218">Turkmenistan</option>
+                    <option value="219">Turks and Caicos Islands</option>
+                    <option value="220">Tuvalu</option>
+                    <option value="221">Uganda</option>
+                    <option value="222">Ukraine</option>
+                    <option value="223">United Arab Emirates</option>
+                    <option value="224">United Kingdom</option>
+                    <option value="225">United States of America</option>
+                    <option value="226">Uruguay</option>
+                    <option value="227">US Minor Outlying Islands</option>
+                    <option value="228">Uzbekistan</option>
+                    <option value="229">Vanuatu</option>
+                    <option value="230">Vatican City</option>
+                    <option value="231">Venezuela</option>
+                    <option value="232">Vietnam</option>
+                    <option value="233">Virgin Islands (UK)</option>
+                    <option value="234">Virgin Islands (US)</option>
+                    <option value="235">Wallis and Futuna Islands</option>
+                    <option value="236">Western Sahara</option>
+                    <option value="237">Yemen</option>
+                    <option value="238">
+                      Zaire (Democratic Republic of Congo)
+                    </option>
+                    <option value="239">Zambia</option>
+                    <option value="240">Zimbabwe</option>
+                    <option value="2533">Dubai</option>
+                    <option value="2618">Maca</option>
+                    <option value="2637">Serbia Montenegro</option>
+                  </optgroup>
+                  <optgroup label="Mumbai Region">
+                    <option value="437">Mumbai City</option>
+                    <option value="522">Navi Mumbai</option>
+                    <option value="523">Thane</option>
+                  </optgroup>
+                </select><span class="name_exit"></span>
+              </li>
+              <li class="transform gst">
+                <strong>Do you have GST Number?</strong><span class="gst"><label><input class="gstcheck cls_gst"
+                      type="radio" name="gstcheck" aria-label="gstcheck" checked="" value="0" style="
+                          vertical-align: middle;
+                          border-top: none;
+                          border-right: none;
+                          border-left: none;
+                          background: rgb(255, 255, 255);
+                        " placeholder="" />&nbsp;No</label><label><input class="gstcheck cls_gst" type="radio"
+                      aria-label="gstcheck" name="gstcheck" value="1" style="
+                          vertical-align: middle;
+                          border-top: none;
+                          border-right: none;
+                          border-left: none;
+                          background: rgb(255, 255, 255);
+                        " placeholder="" />&nbsp;Yes</label></span>
+              </li>
+              <li class="transform cls_gstno mb-0">
+                <label class="lbl">GSTN</label><input type="text" name="gst" placeholder="" style="
+                      border-top: none;
+                      border-right: none;
+                      border-left: none;
+                      background: rgb(255, 255, 255);
+                    " />
+              </li>
+            </ul>
+            <ul class="tnc-wrap flw-100 p-0 m-0" style="list-style-type: none">
+              <li>
+                <input name="check_box" type="checkbox" value="" class="checkbox" id="id_check_box" aria-label="terms"
+                  placeholder="" style="
+                      border-top: none;
+                      border-right: none;
+                      border-left: none;
+                      background: rgb(255, 255, 255);
+                    " /><span class="term">I agree to the
+                  <a href="/termsandconditions">Terms &amp; Conditions</a><span class="name_exit"></span></span>
+              </li>
+              <li>
+                <input name="check_box_kyc" type="checkbox" value="" class="checkbox" id="id_check_box_kyc"
+                  aria-label="kyc" placeholder="" style="
+                      border-top: none;
+                      border-right: none;
+                      border-left: none;
+                      background: rgb(255, 255, 255);
+                    " /><span class="term">I agree to share my KYC documents with Shine</span>
+              </li>
+              <input type="hidden" name="vendorid" id="id_vendorid" value="0" aria-label="vendorid" placeholder=""
+                style="
+                    border-top: none;
+                    border-right: none;
+                    border-left: none;
+                    background: rgb(255, 255, 255);
+                  " /><input type="hidden" name="tid" id="id_tid" value="REC250810595594" aria-label="trnsactionid"
+                placeholder="" style="
+                    border-top: none;
+                    border-right: none;
+                    border-left: none;
+                    background: rgb(255, 255, 255);
+                  " /><input type="hidden" name="existing_user" id="id_existing_user" value="False"
+                aria-label="existinguser" placeholder="" style="
+                    border-top: none;
+                    border-right: none;
+                    border-left: none;
+                    background: rgb(255, 255, 255);
+                  " /><input type="hidden" name="multiple_pkg" id="multiple_package" value="1"
+                aria-label="multiplepackage" placeholder="" style="
+                    border-top: none;
+                    border-right: none;
+                    border-left: none;
+                    background: rgb(255, 255, 255);
+                  " />
+              <li>
+                <label>&nbsp;</label><input type="submit" value="Proceed To Payment"
+                  class="cls_make_payment buy_btn py_btn" name="" style="
+                      display: none;
+                      color: rgb(255, 255, 255);
+                      width: 170px;
+                      text-align: center;
+                      padding: 15px 0px;
+                      cursor: pointer;
+                      font-size: 15px;
+                      font-weight: 500;
+                      border-top: none;
+                      border-right: none;
+                      border-left: none;
+                      background: rgb(255, 255, 255);
+                    " placeholder="" />
+              </li>
+              <li>
+                <span style="cursor: pointer" class="
+                      btn btn-lg btn-round2 btn-yellow
+                      cls_btn_checkOut_addToCart
+                    " onclick="('.cls_make_payment').trigger('click')" data-price="999.00" data-id="47"
+                  data-email="None" data-profile="None" data-download="None" data-validity="365"
+                  data-personal="Post Job at Rs 999">
+                  <button type="submit"
+                    style="width: 100px; height:40px; background-color: #F9AE32;border-radius: 20px; ">Continue</button></span>
+
+              </li>
+            </ul>
+          </form>
+        </div>
+        <!-- /. box sh -->
+      </div>
+      <!-- right box -->
+      <div class="lfloat right_box ">
+        <!-- header -->
+        <div class="header">
+
+          <strong>Shine Starter Plan</strong>
+
+        </div>
+        <!-- body -->
+        <div class="selected_plan">
+          <span class="jp"><em>Job Packages</em>
+            <!-- dropdown -->
+            <span class="selectdiv " style="width: 100%; display: inline-block"><span class="select"
+                style="width: 288.172px">1</span>
+              <select class="styled" id="" style="top: -29px !important;
+                    padding: 10px;
+                    height: 29px;
+                    width: 100%;
+                    left: -2px !important;
+                  ">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+                <option value="47">47</option>
+                <option value="48">48</option>
+                <option value="49">49</option>
+                <option value="50">50</option>
+                <option value="51">51</option>
+                <option value="52">52</option>
+                <option value="53">53</option>
+                <option value="54">54</option>
+                <option value="55">55</option>
+                <option value="56">56</option>
+                <option value="57">57</option>
+                <option value="58">58</option>
+                <option value="59">59</option>
+                <option value="60">60</option>
+                <option value="61">61</option>
+                <option value="62">62</option>
+                <option value="63">63</option>
+                <option value="64">64</option>
+                <option value="65">65</option>
+                <option value="66">66</option>
+                <option value="67">67</option>
+                <option value="68">68</option>
+                <option value="69">69</option>
+                <option value="70">70</option>
+                <option value="71">71</option>
+                <option value="72">72</option>
+                <option value="73">73</option>
+                <option value="74">74</option>
+                <option value="75">75</option>
+                <option value="76">76</option>
+                <option value="77">77</option>
+                <option value="78">78</option>
+                <option value="79">79</option>
+                <option value="80">80</option>
+                <option value="81">81</option>
+                <option value="82">82</option>
+                <option value="83">83</option>
+                <option value="84">84</option>
+                <option value="85">85</option>
+                <option value="86">86</option>
+                <option value="87">87</option>
+                <option value="88">88</option>
+                <option value="89">89</option>
+                <option value="90">90</option>
+                <option value="91">91</option>
+                <option value="92">92</option>
+                <option value="93">93</option>
+                <option value="94">94</option>
+                <option value="95">95</option>
+                <option value="96">96</option>
+                <option value="97">97</option>
+                <option value="98">98</option>
+                <option value="99">99</option>
+                <option value="100">100</option>
+              </select></span></span>
+          <!-- you pay -->
+          <span class="py">
+            You pay: <strong>Rs.</strong><strong id="payAmount">999</strong></span>
+          <!-- you save -->
+          <span class="sv"><em>You save:</em><strong>Rs.</strong><strong id="saveAmount">499</strong></span>
+        </div>
+      </div>
+      <!-- change your plan -->
+      <p>
+        <a class="btn "><strong>Change Your Plan</strong></a>
+      </p>
+
+      <div class="clearfloat"></div>
+      <!-- footer -->
+      <div class="container">
+        <div class="footer">
+          <!-- above portion of the footer -->
+          <!-- left side -->
+          <div class="footerUp">
+            <div class="left1">
+              <p>
+                If you are looking for any information, please feel free to
+                contact us. We will be glad to help.
+              </p>
+              <ul class="left2">
+                <li class="left2--item">
+                  <i class="phone"></i>
+                  <a href="tel:080-47105555">080-47105555</a>
+
+                </li>
+                <li class="left2--item">
+
+                  <a href="mailto:recruiterservices@shine.com">recruiterservices@shine.com</a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- right side -->
+            <div class="right">
+              <div class="follow">
+                Follow us on
+                <ul>
+                  <li class="linkedIn">
+                    <a href="https://www.linkedin.com/company/1052647/"></a>
+                  </li>
+                  <li class="face">
+                    <a href="http://www.facebook.com/shinedotcom/"></a>
+                  </li>
+                  <li class="twitt">
+                    <a href="https://twitter.com/shinedotcom/"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <!-- below portion of the footer -->
+          <div class="footerDown">
+            <!-- left side -->
+            <div class="left3">
+              <ul>
+                <li>
+                  <a>Help Center</a>
+                </li>
+                <li>
+                  <a>About Us</a>
+                </li>
+                <li>
+                  <a>Contact Us</a>
+                </li>
+                <li>
+                  <a>Terms & Conditions
+                  </a>
+                </li>
+                <li>
+                  <a>Privacy Policy
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- right-side -->
+            <div class="right2">© 2021 HT Media Limited</div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <script src="../javascript/jobposting.js"></script>
+</body>
+
+</html>
