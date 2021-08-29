@@ -1,0 +1,405 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+.bestsell {
+	font-family: "PT Sans", sans-serif;
+	display: block;
+}
+.bestsell > h2 {
+	font-size: 1.9rem;
+	font-weight: 700;
+	color: #303e4b;
+	text-align: center;
+}
+.bigA {
+	width: 95%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 140px 140px;
+	grid-gap: 50px;
+}
+.smallA {
+	height: 120px;
+	box-shadow: 0 3px 12px 0 rgba(163, 163, 163, 0.5);
+}
+.smallA > div {
+	padding-left: 10px;
+}
+.smallA > div > h3 {
+	padding-top: 10px;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 600;
+	color: #5364c4;
+}
+.smallA > div > span {
+	color: #6d7883;
+	font-size: 13px;
+}
+.smallA > div > span:nth-child(1) {
+	color: #6d7883;
+	font-size: 13px;
+}
+.bigA > .smallA:nth-child(5) {
+	grid-column-start: 3;
+}
+.viewAll {
+	border: solid 1px #5364c4;
+	color: #5364c4;
+	font-size: 14px;
+	font-weight: 400;
+	width: 200px;
+	margin: 5px auto;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 4px;
+	padding: 4px 0;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+* {
+	margin: 0%;
+	padding: 0%;
+	font-family: "PT Sans", sans-serif;
+}
+#upper1 {
+	display: flex;
+	flex-direction: row;
+	gap: 200px;
+	width: 100%;
+	height: 285px;
+	background-image: url("https://static1.shine.com/c/s1/images/candidate/new/home_base_new.jpg?f25b8aebcbe6");
+}
+#upper1a {
+	width: 40%;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+#upper1a h1 {
+	font-size: 45px;
+	font-weight: 700;
+	color: white;
+}
+#upper1a h2 {
+	opacity: 0.6;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #fff;
+}
+
+#upper1a div {
+	background: #fff;
+	box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	height: 40px;
+	padding-top: 1.5%;
+	padding-left: 4%;
+	color: #546473;
+	font-size: 15px;
+	position: static;
+}
+#upper1a div::after {
+	content: '';
+	padding-top: 0% !important;
+	width: 40px;
+	height: 33px;
+	position: absolute;
+	right: 53%;
+	background: url("https://static1.shine.com/c/s1/images/candidate/new/home_2019.png?f25b8aebcbe6") -10px -70px;
+}
+
+#upper1b {
+	width: 425px;
+	margin-top: 50px;
+	margin-right: 50px;
+	height: 200px;
+	background-image: url("https://static1.shine.com/c/s1/images/candidate/new/home_reg.png?4a33fb510472");
+	background-repeat: no-repeat;
+}
+
+.btn1b {
+	width: 185px;
+	border-radius: 5px;
+	background: #f7a400;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+	padding: 0.375rem 0.75rem;
+	color: #fff;
+	font-weight: 400;
+	border: 0 none;
+	font-size: 16px;
+	margin-top: 50px;
+	margin-left: 45px;
+}
+#upper1b p {
+	color: #fff;
+	font-size: 17px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+#upper1b p::before {
+	content: '';
+	width: 16px;
+	height: 16px;
+	display: inline-flex;
+	margin-right: 4px;
+	background: url("https://static1.shine.com/c/s1/images/candidate/new/home_2019.png?f25b8aebcbe6") -51px -76px;
+}
+
+#upper1c {
+	width: 70%;
+	margin: auto;
+	height: 80px;
+	grid-template-columns: 3fr 3fr 3fr 1fr;
+	grid-template-rows: 45px 40px;
+	grid-gap: 10px;
+}
+#upper1c > input {
+	border-radius: 4px;
+}
+#upper1c button {
+	background-color: #f7a400;
+	color: #fff;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 500;
+}
+#upper1c span {
+	background: url("https://static1.shine.com/c/s1/images/candidate/new/home_2019.png?79633674cb05") -388px -90px;
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	right: 210px;
+	top: 90px;
+	cursor: pointer;
+}
+#upper1c h3 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	font-size: 45px;
+	font-weight: 700;
+	color: white;
+}
+
+.mid1 {
+	width: 90%;
+	height: 500px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 8%;
+}
+
+.mid1 h3 {
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.9rem;
+	font-weight: 700;
+	color: #303e4b;
+	text-align: center;
+}
+.mid1 > img {
+	width: 160px;
+	height: 56px;
+}
+.picinpic {
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 8%;
+}
+/* .elempic{
+    
+} */
+
+.elempic > img:nth-child(1) {
+	width: 100%;
+	box-shadow: 0px 0px 21px 0px rgba(74, 77, 78, 0.34);
+}
+
+.elempic > img:nth-child(2) {
+	width: 88%;
+	position: relative;
+	top: -35px;
+	left: 6%;
+	box-shadow: 0px 0px 21px 0px rgba(74, 77, 78, 0.34);
+}
+#head1 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.9rem;
+	font-weight: 700;
+	color: #303e4b;
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+#nav {
+	font-family: "PT Sans", sans-serif;
+	color: #505e6b;
+	font-size: 16px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	width: 80%;
+	height: 30px;
+	margin: auto;
+	text-align: center;
+	border-bottom: 1px solid gainsboro;
+}
+
+#nav > div:hover {
+	font-weight: 700;
+	border-bottom: 3px solid #f7a400;
+}
+
+#indus,
+#depart,
+#loc,
+#desig,
+#skills {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+#indus > div,
+#depart > div,
+#loc > div,
+#desig > div,
+#skills > div {
+	color: #6345db;
+	margin-bottom: 0.5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+}
+#indus > div > span,
+#depart > div > span,
+#loc > div > span {
+	font-size: 13px;
+	font-style: normal;
+	color: #6d7883;
+}
+
+#depart #loc {
+	display: none;
+}
+
+body {
+	margin: 0px auto 0 auto;
+	background: #fbfbfb;
+	font-weight: 400;
+	font-size: 12px;
+}
+header {
+	background: #fff;
+	width: 100%;
+	box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 10%);
+	height: 54px;
+}
+
+#navbar {
+	display: flex;
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	min-height: 54px;
+	background: -moz-linear-gradient(-45deg, #5a3ea5 0%, #4b30bd 50%, #4b30bd 100%);
+}
+#logo2 {
+	margin-left: 15px;
+	content: '';
+	width: 88px;
+	height: 58px;
+	transform: scale(0.96);
+	background: url("https://static1.shine.com/c/s1/images/candidate/new/home_2019.png?cccbf441db06") -2px 0px;
+}
+.flex-display {
+	display: flex;
+	width: 98%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#navbar li {
+	list-style: none;
+	position: relative;
+	/* display: block; */
+	padding: 13px 13px 10px 13px;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+}
+.flex {
+	display: flex;
+}
+#before {
+	display: flex;
+	padding-top: 9px;
+	align-items: center;
+}
+#after {
+	display: flex;
+	padding-top: 5px;
+	margin-left: auto;
+	align-items: center;
+}
+#navbar div img {
+	height: 54px;
+}
+.material-icons {
+	margin-right: 3px;
+}
+
+.dropbtn {
+	color: white;
+}
+
+#career-guidence {
+	background: #eee0ff;
+	color: #3d4d5c !important;
+	width: 165px;
+	height: 35px;
+	border-radius: 5px;
+	padding-top: 5px !important;
+}
+#btn1 {
+	width: 120px;
+	height: 30px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 4px;
+	background-color: transparent;
+}
+
+.dropdown-content {
+	display: none;
+	position: fixed;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-weight: 400;
+}
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
