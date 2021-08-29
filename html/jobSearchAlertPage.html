@@ -1,0 +1,202 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Alert</title>
+  <link rel="stylesheet" href="../css/jobSearchAlertPage.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- nav bar -->
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+
+        <a href="home.html">
+          <div class="logo"></div>
+        </a>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown posRel infomenu jobSearch1 jobSearch2">
+              <a class="dropdown-toggle">Search Jobs <b class="caret"></b></a>
+              <ul class="dropdown-menu small">
+
+                <li>
+                  <ul class="top_Menu jobSearch">
+                    <li>
+                      <a>Jobs in Top Cities</a>
+                    </li>
+                    <li>
+                      <a>Jobs by Skills</a>
+                    </li>
+                    <li>
+                      <a>Jobs by Courses</a>
+                    </li>
+                    <li>
+                      <a>Jobs by Education</a>
+                    </li>
+                    <li>
+                      <a>Jobs by Designation</a>
+                    </li>
+                    <li>
+                      <a>Jobs by Company</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown posRel infomenu carrerInfo">
+
+              <a class="dropdown-toggle">Jobs for You</a>
+            </li>
+            <li class="dropdown posRel infomenu carrerInfo">
+
+              <a>Mailbox</a>
+
+            </li>
+            <li class="dropdown posRel infomenu carrerInfo">
+              <a href="/myshine/myprofile/" class="dropdown-toggle">
+                Profile <b class="caret"></b></a>
+              <ul class="dropdown-menu small">
+                <li class="arrowup"></li>
+                <li>
+                  <ul class="top_Menu jobSearch">
+                    <li><a>My Profile</a></li>
+                    <li>
+                      <a>Recruiter Actions</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown posRel infomenu carrerInfo">
+
+              <a class="dropdown-toggle">Services<b class="caret"></b></a>
+              <ul class="dropdown-menu small medium">
+
+                <li>
+                  <ul class="top_Menu jobSearch">
+                    <li><strong>E-Learning</strong></li>
+                    <li>
+                      <a>Digital Marketing</a>
+                    </li>
+                    <li>
+                      <a>Data Science</a>
+
+                    </li>
+                    <li>
+                      <a>Cloud Computing</a>
+
+                    </li>
+                    <li>
+                      <a>GST</a>
+
+                    </li>
+                    <li>
+                      <a>Project Management</a>
+
+                    </li>
+                    <li>
+                      <a>Six Sigma</a>
+
+                    </li>
+                  </ul>
+                  <ul class="top_Menu jobSearch">
+                    <li><strong>Resume Service</strong></li>
+                    <li>
+                      <a>Resume Writing Services</a>
+
+                    </li>
+                    <li>
+                      <a>International Resume</a>
+
+                    </li>
+                    <li>
+                      <a>LinkedIn Profile Writing</a>
+
+                    </li>
+                    <li>
+                      <a>Jobs on the Move</a>
+
+                    </li>
+                    <li>
+                      <a>Resume Formats</a>
+
+                    </li>
+                    <li>
+                      <a>Resignation Letter Format</a>
+
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown-toggle"> My Job Alerts </a>
+
+            </li>
+            <li class="covid" data-header="true">
+              <a class="dropdown-toggle">Career Guidance<sup>NEW</sup></a>
+
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="posRel infomenu alrt cls_notify_alert notify_alert_bell">
+
+              <span class="notify_bell"></span>
+
+              <ul class="dropdown-menu alrt_list clickView">
+            </li>
+          </ul>
+          </li>
+          <li class="dropdown posRel infomenu carrerInfo lgout">
+            <strong>Hi, <span class="spanName">Nikita </span></strong>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    </nav>
+  </header>
+
+  <!-- search bar -->
+  <form action="">
+    <div style="margin: 0px; padding: 0%" id="upper1">
+      <div id="upper1a">
+        <div onclick="disapp()">Enter keyword</div>
+      </div>
+      <div id="upper1b"></div>
+      <div id="upper1c" style="display: none">
+        <span onclick="disapp2()"></span>
+        <input id="jobTittle" placeholder="Job title, skills" class="addPadding" />
+        <input id="location" placeholder="Location" class="addPadding" />
+        <input id="experience" placeholder="Experience (Years)" class="addPadding" />
+        <button id="searchJob">Search Jobs</button>
+      </div>
+    </div>
+  </form>
+
+  <div id="displayAlertResult">
+    <!-- <div class="alertResult">
+      <h1>Java Developer</h1>
+      <h2>Signative International Private Limited</h2>
+      <div class="display-flex">
+        <p>0 to 5 Years</p>
+        <p>Rs 3.5 - 6 Lakh/Yr</p>
+        <p>Work From Home</p>
+        <p>Pithampur Madhya Pradesh</p>
+      </div>
+      <button class="btn">Apply</button>
+    </div> -->
+  </div>
+
+  <div id="displaySearch">
+
+  </div>
+
+  <script src="../javascript/jobSearchAlertPage.js"></script>
+</body>
+
+</html>
