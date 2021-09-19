@@ -180,9 +180,6 @@
   position: relative;
 }
 
-element.style {
-  list-style-type: none;
-}
 
 ul,
 h2,
@@ -387,12 +384,6 @@ label {
   color: #3d4d5c;
 }
 
-element.style {
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  background: rgb(255, 255, 255);
-}
 .detail_payment ul li input[type="text"] {
   font-size: 14px;
   width: 100%;
@@ -431,13 +422,7 @@ element.style {
   padding: 10px 0;
   font-size: 14px;
 }
-.new_form li {
-  padding: 10px 15px !important;
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
-  margin-bottom: 15px;
-}
+
 
 
 .detail_payment ul li input[type="text"] {
@@ -486,10 +471,7 @@ element.style {
   line-height: 8px;
   color: #757eb1;
 }
-/* .new_form li .mobile_l {
-  left: 0;
-  top: 4px;
-} */
+
 .new_form li .lbl {
   left: 15px;
   z-index: 8;
@@ -524,40 +506,7 @@ label {
   color: #666666;
 }
 
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-input[type="number"],
-.animate-label .form-input {
-  position: relative;
-  width: 100%;
-  outline: 0;
-  border: 0;
-  padding: 10px 0;
-  border-bottom: 1px solid #dddddd;
-  border-radius: 0px;
-  font-size: inherit;
-  width: 100%;
-  color: #3d4d5c;
-  background-color: transparent;
-  height: 34px;
-  -webkit-appearance: none;
-  cursor: text;
-  position: relative;
-}
-/* input[type="text"],
-  input[type="tel"],
-  input[type="email"],
-  input[type="number"] {
-	z-index: 8;
-  } */
 
-.detail_payment input {
-  border: none;
-  border-bottom: 1px solid #eee;
-  outline: none;
-  color: #666666;
-}
 
 span.name_exit,
 .detail_payment li span.error {
@@ -575,13 +524,6 @@ span.name_exit,
 }
 
 
-.new_form li {
-  padding: 10px 15px !important;
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
-  margin-bottom: 15px;
-}
 
 .clear {
   clear: both;
@@ -636,13 +578,6 @@ label {
   padding: 10px 0;
   font-size: 14px;
 }
-.new_form li {
-  padding: 10px 15px !important;
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
-  margin-bottom: 15px;
-}
 
 
 
@@ -671,14 +606,6 @@ label {
   background: rgb(255, 255, 255) !important;
 }
 
-
-.new_form li {
-  padding: 10px 15px !important;
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
-  margin-bottom: 15px;
-}
 
 .new_form li strong {
   display: inline-block;
@@ -733,13 +660,6 @@ label {
 }
 
 
-.new_form li {
-  padding: 10px 15px !important;
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
-  margin-bottom: 15px;
-}
 
 .mb-0 {
   margin-bottom: 0 !important;
@@ -1175,7 +1095,7 @@ select.styled {
 	box-sizing: border-box;
 	width: 378.5px; 
 	display:flex; 
-	justify-content: space-between;"
+	justify-content: space-between;
   }
 .register_form #selectlocation {
 	border: 0 !important;
