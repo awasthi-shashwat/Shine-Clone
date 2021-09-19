@@ -1,207 +1,239 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register for Free on Shine</title>
+    <link rel="stylesheet" href="../css/register.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Register for Free</title>
-  <link rel="stylesheet" href="../css/register.css" />
-
-</head>
-
-
-<body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed="">
-  <div id="opaque"></div>
-
-  <div class="main_wrap">
-    <!-- Header start here -->
-    <header>
-      <div class="wrapper">
-        <a class="logo" href="home.html">Shine.com</a>
-        <div id="loginContainer" class="login_button" style="display: block">
-          <a>Login</a>
+  <body>
+    <div class="main_wrap">
+      <!-- Header start here -->
+      <header>
+        <div class="wrapper">
+          <a class="logo" href="home.html">Shine.com</a>
+          <div id="loginContainer" class="login_button">
+            <a>Login</a>
+          </div>
         </div>
-      </div>
-    </header>
-  </div>
+      </header>
+    </div>
 
-  <!-- body -->
+    <!-- body -->
 
+    <div class="base relative">
+      <!---->
+      <div
+        class="
+          d-flex
+          flex-row
+          justify-content-between justify-content-center
+          align-items-center
+          h-100
+        "
+      >
+        <div class="d-flex flex-column reg_text">
+          <span class="reg_text--or">Or</span>
+          <h1>Register with Resume</h1>
+          <div class="small_text">We will autofill your details</div>
+          <div class="browse">
+            <span id="id_resume_file" class="browse1">Upload Resume </span>
+            <!---->
+            <!---->
+            Supported formats- pdf, doc, docx, csv, rtf, txt files File size
+            should not exceed 5 MB
+          </div>
+        </div>
+        <!---->
+        <div class="flex flex-column reg_right">
+          <h2>Let’s get started, tell us about yourself.</h2>
+          <p class="sub-heading">
+            It only takes a couple of minutes to get started
+          </p>
+          <form>
+            <input type="text" style="display: none" />
+            <input type="password" style="display: none" />
+            <div class="form-group-parent mb-3">
+              <div class="form-group d-flex error">
+                <input
+                  type="text"
+                  id="id_name"
+                  class="cls_animation"
+                  placeholder="Name"
+                />
 
-  <div class="base relative">
-    <!---->
-    <div class="
-            d-flex
-            flex-row
-            justify-content-between justify-content-center
-            align-items-center
-            h-100
-          ">
-      <div class="d-flex flex-column reg_text">
-        <span class="reg_text--or">Or</span>
-        <h1>Register with Resume</h1>
-        <div class="small_text">We will autofill your details</div>
-        <div class="browse">
-          <span id="id_resume_file" class="browse1">Upload Resume </span>
-          <!---->
-          <!---->
-          Supported formats- pdf, doc, docx, csv, rtf, txt files File size
-          should not exceed 5 MB
+                <!---->
+                <!---->
+              </div>
+            </div>
+            <div class="form-group-parent mb-3">
+              <div class="form-group d-flex flex-column">
+                <input
+                  placeholder="Email"
+                  type="text"
+                  id="id_email"
+                  class="cls_animation"
+                />
+
+                <!---->
+                <!---->
+              </div>
+              <!---->
+            </div>
+            <div class="form-group-parent mb-3">
+              <div class="form-group mb-3 flex-column">
+                <input
+                  type="text"
+                  id="id_countrycode"
+                  placeholder="91"
+                  class="countrycode"
+                />
+                <input
+                  type="text"
+                  id="id_cell_phone"
+                  placeholder="Mobile Number"
+                  class="mobileNo"
+                />
+                <div class="line"></div>
+
+                <!---->
+                <!---->
+                <small class="flex-column text-muted"
+                  >Your details will be visible only to genuine
+                  recruiters</small
+                >
+              </div>
+            </div>
+            <!---->
+            <div class="form-group-parent mb-3">
+              <div class="form-group d-flex">
+                <input
+                  placeholder="Password"
+                  type="Password"
+                  id="id_password"
+                  class="cls_animation"
+                />
+
+                <!---->
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div class="form-group-parent mb-3">
+              <input
+                type="checkbox"
+                id="id_privacy"
+                required="required"
+                class="privacy"
+              />
+              <label for="checkbox"
+                >By registering, you agree to our
+                <a>terms &amp; conditions</a>
+                &amp; <a> privacy policy</a></label
+              >
+              <!---->
+            </div>
+            <button
+              class="btn mb-3 align-self-end w-80 right-90"
+              id="registerButton"
+              type="submit"
+            >
+              Continue
+            </button>
+            <div class="d-flex w-80 registration relative">
+              <span class="register">or Register with</span>
+            </div>
+            <ul class="social-login w-80 mt-3 mb-1">
+              <li>
+                <div class="social-login--btn google_button">
+                  <div class="social-login--icon"><i class="google"></i></div>
+                  <div class="social-login--text google msite_displaynone">
+                    Google
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a
+                  id="id_linkedIn"
+                  href="https://www.linkedin.com/oauth/v2/authorization?response_type=code&amp;amp;client_id=757gbstpwa6dqp&amp;amp;state=4c6f2cbf-675f-468e-bac0-9adc3048e5f3&amp;amp;scope=r_emailaddress+r_basicprofile&amp;amp;redirect_uri=https%3A%2F%2Fwww.shine.com%2Flinkedin%2Flogin"
+                  class="social-login--btn linkedin_button"
+                >
+                  <div class="social-login--icon">
+                    <i class="linkedin"></i>
+                  </div>
+                  <div class="social-login--text google msite_displaynone">
+                    Linkedin
+                  </div>
+                </a>
+              </li>
+              <li>
+                <div class="social-login--btn facebook_button">
+                  <div class="social-login--icon">
+                    <i class="facebook"></i>
+                  </div>
+                  <div class="social-login--text google msite_displaynone">
+                    Facebook
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </form>
         </div>
       </div>
       <!---->
-      <div class="flex flex-column reg_right">
-        <h2>Let’s get started, tell us about yourself.</h2>
-        <p class="sub-heading">
-          It only takes a couple of minutes to get started
-        </p>
-        <form>
-          <input type="text" style="display: none" />
-          <input type="password" style="display: none" />
-          <div class="form-group-parent mb-3">
-            <div class="form-group d-flex error">
-              <input type="text" id="id_name" class="cls_animation" placeholder="Name" />
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <!---->
 
-              <!---->
-              <!---->
-            </div>
-          </div>
-          <div class="form-group-parent mb-3">
-            <div class="form-group d-flex flex-column">
-              <input placeholder="Email" type="text" id="id_email" class="cls_animation" />
-
-              <!---->
-              <!---->
-            </div>
-            <!---->
-          </div>
-          <div class="form-group-parent mb-3">
-            <div class="form-group mb-3 flex-column">
-              <input type="text" id="id_countrycode" placeholder="91" class="countrycode" />
-              <input type="text" id="id_cell_phone" placeholder="Mobile Number" class="mobileNo" />
-              <div class="line"></div>
-
-              <!---->
-              <!---->
-              <small class="flex-column text-muted">Your details will be visible only to genuine
-                recruiters</small>
-            </div>
-          </div>
-          <!---->
-          <div class="form-group-parent mb-3">
-            <div class="form-group d-flex">
-              <input placeholder="Password" type="Password" id="id_password" class="cls_animation" />
-
-              <!---->
-              <!---->
-            </div>
-            <!---->
-            <!---->
-          </div>
-          <div class="form-group-parent mb-3">
-            <input type="checkbox" id="id_privacy" required="required" class="privacy" />
-            <label for="checkbox">By registering, you agree to our
-              <a>terms &amp; conditions</a>
-              &amp; <a> privacy policy</a></label>
-            <!---->
-          </div>
-          <button class="btn mb-3 align-self-end w-80 right-90" id="registerButton" type="submit">
-            Continue
-          </button>
-          <div class="d-flex w-80 registration relative">
-            <span class="register">or Register with</span>
-          </div>
-          <ul class="social-login w-80 mt-3 mb-1">
-            <li>
-              <div class="social-login--btn google_button">
-                <div class="social-login--icon"><i class="google"></i></div>
-                <div class="social-login--text google msite_displaynone">
-                  Google
-                </div>
-              </div>
-            </li>
-            <li>
-              <a id="id_linkedIn"
-                href="https://www.linkedin.com/oauth/v2/authorization?response_type=code&amp;amp;client_id=757gbstpwa6dqp&amp;amp;state=4c6f2cbf-675f-468e-bac0-9adc3048e5f3&amp;amp;scope=r_emailaddress+r_basicprofile&amp;amp;redirect_uri=https%3A%2F%2Fwww.shine.com%2Flinkedin%2Flogin"
-                class="social-login--btn linkedin_button">
-                <div class="social-login--icon">
-                  <i class="linkedin"></i>
-                </div>
-                <div class="social-login--text google msite_displaynone">
-                  Linkedin
-                </div>
-              </a>
-            </li>
-            <li>
-              <div class="social-login--btn facebook_button">
-                <div class="social-login--icon">
-                  <i class="facebook"></i>
-                </div>
-                <div class="social-login--text google msite_displaynone">
-                  Facebook
-                </div>
-              </div>
-            </li>
-          </ul>
-        </form>
-      </div>
+      <div class="container"></div>
     </div>
-    <!---->
-    <!---->
-    <!---->
-    <!---->
-    <!---->
-    <!---->
+    <div class="Legal" id="LegalNotification" style="display: block">
+      You hereby authorize Shine.com and/or its representatives to call you,
+      e-mail you, or SMS you. This consent will supersede any registration for
+      any Do Not Call (DNC) / National Do Not Call (NDNC).
+    </div>
 
-    <div class="container"></div>
-  </div>
-  <div class="Legal" id="LegalNotification" style="display: block">
-    You hereby authorize Shine.com and/or its representatives to call you,
-    e-mail you, or SMS you. This consent will supersede any registration for
-    any Do Not Call (DNC) / National Do Not Call (NDNC).
-  </div>
+    <!-- footer star here -->
+    <div class="main_wrap">
+      <footer>
+        <div class="wrapper">
+          <div class="fot_lft">
+            <ul>
+              <li>
+                <a>Feedback</a>
+              </li>
+              <li><a>FAQs</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Contact Us</a></li>
 
-  <!-- footer star here -->
-  <div class="main_wrap">
-    <footer>
-      <div class="wrapper">
-        <div class="fot_lft">
-          <ul>
-            <li>
-              <a>Feedback</a>
-            </li>
-            <li><a>FAQs</a></li>
-            <li><a>About Us</a></li>
-            <li><a>Contact Us</a></li>
-
-            <li>
-              <a>Privacy Policy</a>
-            </li>
-            <li>
-              <a>Security Advice</a>
-            </li>
-            <li>
-              <a>Business News</a>
-            </li>
-            <li>
-              <a>Terms &amp; Conditions</a>
-            </li>
-            <li>
-              <a>Disclaimer</a>
-            </li>
-          </ul>
+              <li>
+                <a>Privacy Policy</a>
+              </li>
+              <li>
+                <a>Security Advice</a>
+              </li>
+              <li>
+                <a>Business News</a>
+              </li>
+              <li>
+                <a>Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a>Disclaimer</a>
+              </li>
+            </ul>
+          </div>
+          <div class="fot_rgt">© 2021 HT Media Limited</div>
         </div>
-        <div class="fot_rgt">© 2021 HT Media Limited</div>
+      </footer>
+    </div>
 
-      </div>
-    </footer>
-  </div>
+    <!-- footer End here -->
 
-
-  <!-- footer End here -->
-
-
-  <script src="../javascript/register.js"></script>
-</body>
-
+    <script src="../javascript/register.js"></script>
+  </body>
 </html>
