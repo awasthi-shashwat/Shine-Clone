@@ -25,6 +25,6 @@ function registerDetail(e) {
 	setTimeout(() => {
 		alert('registeration successful');
 
-		document.location.href = '../html/home.html';
+		document.location.href = '../home.html';
 	}, 1000);
 }

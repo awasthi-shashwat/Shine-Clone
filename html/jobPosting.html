@@ -25,7 +25,7 @@
       <div class="container">
         <!-- Left float of Nav bar -->
         <div class="leftNav">
-          <a href="home.html" class="band_logo " aria-label="shinelink3"></a>
+          <a href="../home.html" class="band_logo " aria-label="shinelink3"></a>
           <ul>
             <li><a>Home</a></li>
             <li>
@@ -75,18 +75,22 @@
         <ul style="list-style-type: none;">
           <li class="deactive" id="package_details_icon">
             <strong>Package details</strong>
-            <span class="tick_logo package_tick show"></span></li>
-            <li class="Personal active" id="personal_details_icon">
-              <strong>Personal details</strong>
-              <span class="tick_logo personal_tick"></span></li>
-              <li class="payement" id="payment_details_icon">
-                <strong>Payment mode</strong></li></ul>
-              </div>
-            </div>
+            <span class="tick_logo package_tick show"></span>
+          </li>
+          <li class="Personal active" id="personal_details_icon">
+            <strong>Personal details</strong>
+            <span class="tick_logo personal_tick"></span>
+          </li>
+          <li class="payement" id="payment_details_icon">
+            <strong>Payment mode</strong>
+          </li>
+        </ul>
+      </div>
+    </div>
     <div class="container container1 register_form" id="personal_details_container" style="display: block">
       <div class="post_form detail_payment acord_con lfloat">
-      
-       
+
+
         <!-- personal details form -->
         <div class="box-sh">
           <form class="animation">
@@ -98,34 +102,25 @@
             </strong>
             <ul class="new_form">
               <li class="transform">
-                <label class="lbl">Email</label><input id="userEmail" class="inputStyle" type="text"
-                   />
+                <label class="lbl">Email</label><input id="userEmail" class="inputStyle" type="text" />
               </li>
               <li class="transform phone_wrap">
-                <span class="c-code prefix" >+91</span><span
-                  class="m-code"><label class="lbl mobile_l">Mobile No</label ><input type="text" 
-                    class="text text2 inputStyle"maxlength="10" required="" id="id_mobile_no" 
-                  
-                       /><span class="name_exit"></span></span>
+                <span class="c-code prefix">+91</span><span class="m-code"><label class="lbl mobile_l">Mobile
+                    No</label><input type="text" class="text text2 inputStyle" maxlength="10" required=""
+                    id="id_mobile_no" /><span class="name_exit"></span></span>
               </li>
               <li class="transform clear">
-                <label class="lbl">Company Name</label><input type="text"  class="text"
-                   maxlength="100" required="" id="id_company_name" 
-                    
-                      /><span class="name_exit" id="company_error"></span>
+                <label class="lbl">Company Name</label><input type="text" class="text" maxlength="100" required=""
+                  id="id_company_name" /><span class="name_exit" id="company_error"></span>
               </li>
               <li class="transform">
-                <label class="lbl">Name</label><input type="text" name="contact_name" class="text"
-                   maxlength="100" required="" id="id_contact_name" 
-                      /><span class="name_exit"></span>
+                <label class="lbl">Name</label><input type="text" name="contact_name" class="text" maxlength="100"
+                  required="" id="id_contact_name" /><span class="name_exit"></span>
               </li>
-              <li class="clear" >
-                <span
-                  class="select" id="selectlocation"
-                  >
-                  <div >Select Location</div> <i class="fas fa-caret-down"></i>
-                </span><select  class="styled" placeholder="Location" required=""
-                  id="id_location">
+              <li class="clear">
+                <span class="select" id="selectlocation">
+                  <div>Select Location</div> <i class="fas fa-caret-down"></i>
+                </span><select class="styled" placeholder="Location" required="" id="id_location">
                   <option value="" selected="">Select Location</option>
                   <optgroup label="Top Cities">
                     <option value="243">Bangalore</option>
@@ -1202,40 +1197,31 @@
                 </select><span class="name_exit"></span>
               </li>
               <li class="transform gst">
-                <strong>Do you have GST Number?</strong><span class="gst "><label><input class="gstcheck cls_gst radio_button"
-                      type="radio" name="gstcheck"  checked="" value="0"
-                        
-                        />&nbsp;No</label><label><input class="gstcheck cls_gst radio_button" type="radio"
-                       name="gstcheck" value="1" 
-                        />&nbsp;Yes</label></span>
+                <strong>Do you have GST Number?</strong><span class="gst "><label><input
+                      class="gstcheck cls_gst radio_button" type="radio" name="gstcheck" checked=""
+                      value="0" />&nbsp;No</label><label><input class="gstcheck cls_gst radio_button" type="radio"
+                      name="gstcheck" value="1" />&nbsp;Yes</label></span>
               </li>
-             
+
             </ul>
-            <ul class="tnc-wrap flw-100 p-0 m-0" >
+            <ul class="tnc-wrap flw-100 p-0 m-0">
               <li>
-                <input name="check_box" type="checkbox" value="" class="checkbox" id="id_check_box" 
-                 
-                     /><span class="term">I agree to the
+                <input name="check_box" type="checkbox" value="" class="checkbox" id="id_check_box" /><span
+                  class="term">I agree to the
                   <a href="/termsandconditions">Terms &amp; Conditions</a><span class="name_exit"></span></span>
               </li>
               <li>
-                <input name="check_box_kyc" type="checkbox" value="" class="checkbox" id="id_check_box_kyc"
-                
-                     /><span class="term">I agree to share my KYC documents with Shine</span>
+                <input name="check_box_kyc" type="checkbox" value="" class="checkbox" id="id_check_box_kyc" /><span
+                  class="term">I agree to share my KYC documents with Shine</span>
               </li>
-              <input type="hidden" name="vendorid" id="id_vendorid" value="0" 
-                
-                   />
-             
+              <input type="hidden" name="vendorid" id="id_vendorid" value="0" />
+
               <li>
                 <span style="cursor: pointer" class="
                       btn btn-lg btn-round2 btn-yellow
                       cls_btn_checkOut_addToCart
-                    " onclick="('.cls_make_payment').trigger('click')" 
-                  
-                  >
-                  <button type="submit" class="submit_button"
-                  >Continue</button></span>
+                    " onclick="('.cls_make_payment').trigger('click')">
+                  <button type="submit" class="submit_button">Continue</button></span>
 
               </li>
             </ul>
@@ -1255,10 +1241,9 @@
         <div class="selected_plan">
           <span class="jp"><em>Job Packages</em>
             <!-- dropdown -->
-            <span class="selectdiv dropdown" ><span class="select"
-                >1</span>
+            <span class="selectdiv dropdown"><span class="select">1</span>
               <select class="styled">
-                  
+
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -1388,7 +1373,7 @@
                 <li class="left2--item">
                   <i class="phone"></i>
                   <a href="tel:080-47105555">080-47105555</a>
-                  
+
                 </li>
                 <li class="left2--item">
 

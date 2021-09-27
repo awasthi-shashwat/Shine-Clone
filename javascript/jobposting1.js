@@ -21,6 +21,6 @@ document.querySelector('#paymentAmount').textContent = document.querySelector('#
 document.querySelector('#SubmitBillShip').addEventListener('click', () => {
 	setTimeout(() => {
 		alert(`Payment of Rs ${document.querySelector('#finalTotal').textContent} is sucessfull`);
-		window.location.href = '../html/home.html';
+		window.location.href = '../home.html';
 	}, 3000);
 });

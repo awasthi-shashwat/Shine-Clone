@@ -1,473 +1,381 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CCAvenue: Billing Shipping</title>
-    <link rel="stylesheet" href="../css/jobPosting1.css" />
-  </head>
 
-  <body>
-    <body class="page-bg">
-      <!-- Logo/Banner Panel Starts -->
-      <div id="banner" class="row-fluid">
-        <div class="span12">
-          <img src="./image/paymentPage_header.png " />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCAvenue: Billing Shipping</title>
+  <link rel="stylesheet" href="../css/jobPosting1.css" />
+</head>
+
+<body>
+
+  <body class="page-bg">
+    <!-- Logo/Banner Panel Starts -->
+    <div id="banner" class="row-fluid">
+      <div class="span12">
+        <img src="./image/paymentPage_header.png " />
       </div>
-      <!-- Logo/Banner Panel Ends -->
+    </div>
+    <!-- Logo/Banner Panel Ends -->
 
-      <div class="container-fluid content-bg content-text">
-        <!-- Order Info Panel Starts -->
-        <div id="orderinfo" class="row-fluid border">
-          <span>REC270815274363</span>
-        </div>
+    <div class="container-fluid content-bg content-text">
+      <!-- Order Info Panel Starts -->
+      <div id="orderinfo" class="row-fluid border">
+        <span>REC270815274363</span>
+      </div>
 
-        <!-- Order Info Panel Ends -->
+      <!-- Order Info Panel Ends -->
 
-        <!-- Body Panel Starts -->
-        <div class="row-fluid">
-          <!-- ********* Body Right Panel Starts ********* -->
+      <!-- Body Panel Starts -->
+      <div class="row-fluid">
+        <!-- ********* Body Right Panel Starts ********* -->
 
-          <div id="rightpanel" class="span4 content-bg pull-right">
-            <!-- Order Total Starts -->
-            <div
-              id="ordertotal"
-              class="span12 border innerpanel-bg innerpanel-text pull-right"
-            >
-              <div class="span12 innerpanel-text order-details-title">
-                Order Details
+        <div id="rightpanel" class="span4 content-bg pull-right">
+          <!-- Order Total Starts -->
+          <div id="ordertotal" class="span12 border innerpanel-bg innerpanel-text pull-right">
+            <div class="span12 innerpanel-text order-details-title">
+              Order Details
+            </div>
+
+            <div class="span12 innerpanel-text order-no">
+              <span class="pull-left">Order&nbsp;#:</span><span class="order-value">REC270815274363</span>
+            </div>
+            <div class="breakup-panel span12">
+              <div class="span12 divider pull-right"></div>
+              <div class="span8 innerpanel-text">Order &nbsp;Amount</div>
+              <div class="span4 innerpanel-text pull-right" id="orderAmt">
+                1498
               </div>
-
-              <div class="span12 innerpanel-text order-no">
-                <span class="pull-left">Order&nbsp;#:</span
-                ><span class="order-value">REC270815274363</span>
-              </div>
-              <div class="breakup-panel span12">
-                <div class="span12 divider pull-right"></div>
-                <div class="span8 innerpanel-text">Order &nbsp;Amount</div>
-                <div class="span4 innerpanel-text pull-right" id="orderAmt">
-                  1498
-                </div>
-                <div class="span8 innerpanel-text discountText">Discount</div>
-                <div
-                  class="
+              <div class="span8 innerpanel-text discountText">Discount</div>
+              <div class="
                     span4
                     innerpanel-text
                     pull-right
                     highlight-text
                     discountText
-                  "
-                  id="discountAmt"
-                >
-                  499
-                </div>
-                <div class="span12 divider pull-right"></div>
-                <div id="grandtotal" class="span12">
-                  <div class="span6 innerpanel-text">Total Amount</div>
-                  <div
-                    class="span6 innerpanel-text pull-right orderTotal"
-                    id="finalTotal"
-                  >
-                    INR 999
-                  </div>
+                  " id="discountAmt">
+                499
+              </div>
+              <div class="span12 divider pull-right"></div>
+              <div id="grandtotal" class="span12">
+                <div class="span6 innerpanel-text">Total Amount</div>
+                <div class="span6 innerpanel-text pull-right orderTotal" id="finalTotal">
+                  INR 999
                 </div>
               </div>
             </div>
           </div>
-          <!-- ********* Body Right Panel Ends ********* -->
+        </div>
+        <!-- ********* Body Right Panel Ends ********* -->
 
-          <!-- ********* Body Left Panel Starts ********* -->
-          <div class="span8 content-bg body-left-panel">
-            <div id="sectionheading" class="span12 heading-bg">
-              <span class="heading-text">Payment Information</span>
-            </div>
+        <!-- ********* Body Left Panel Starts ********* -->
+        <div class="span8 content-bg body-left-panel">
+          <div id="sectionheading" class="span12 heading-bg">
+            <span class="heading-text">Payment Information</span>
+          </div>
 
-            <!-- Payment Information Panel Starts -->
-            <div
-              class="
+          <!-- Payment Information Panel Starts -->
+          <div class="
                 span12
                 border
                 select-payment
                 icon-arrow-black
                 paymentinformation
-              "
-            >
-              <div
-                id="verticalTab"
-                class="paymentinformation resp-vtabs"
-                style="display: block; width: 100%; margin: 0px"
-              >
-                <ul class="resp-tabs-list span3">
-                  <li class="resp-tab-item resp-tab-active">
-                    <div>
-                      <span
-                        class="
+              ">
+            <div id="verticalTab" class="paymentinformation resp-vtabs"
+              style="display: block; width: 100%; margin: 0px">
+              <ul class="resp-tabs-list span3">
+                <li class="resp-tab-item resp-tab-active">
+                  <div>
+                    <span class="
                           content-text content-bg
                           border
                           right-arrow
                           paymentOption
-                        "
-                        >Credit Card<span class="patch content-bg"></span
-                      ></span>
-                    </div>
-                  </li>
+                        ">Credit Card<span class="patch content-bg"></span></span>
+                  </div>
+                </li>
 
-                  <li class="resp-tab-item">
-                    <div>
-                      <span class="innerpanel-text innerpanel-bg border"
-                        >Debit Cards</span
-                      >
-                    </div>
-                  </li>
+                <li class="resp-tab-item">
+                  <div>
+                    <span class="innerpanel-text innerpanel-bg border">Debit Cards</span>
+                  </div>
+                </li>
 
-                  <li class="resp-tab-item">
-                    <div>
-                      <span class="innerpanel-text innerpanel-bg border"
-                        >Net Banking</span
-                      >
-                    </div>
-                  </li>
+                <li class="resp-tab-item">
+                  <div>
+                    <span class="innerpanel-text innerpanel-bg border">Net Banking</span>
+                  </div>
+                </li>
 
-                  <li class="resp-tab-item">
-                    <div>
-                      <span class="innerpanel-text innerpanel-bg border"
-                        >Cash Card</span
-                      >
-                    </div>
-                  </li>
+                <li class="resp-tab-item">
+                  <div>
+                    <span class="innerpanel-text innerpanel-bg border">Cash Card</span>
+                  </div>
+                </li>
 
-                  <li class="resp-tab-item">
-                    <div>
-                      <span class="innerpanel-text innerpanel-bg border"
-                        >Paytm</span
-                      >
-                    </div>
-                  </li>
+                <li class="resp-tab-item">
+                  <div>
+                    <span class="innerpanel-text innerpanel-bg border">Paytm</span>
+                  </div>
+                </li>
 
-                  <li class="resp-tab-item">
-                    <div>
-                      <span class="innerpanel-text innerpanel-bg border"
-                        >Wallet</span
-                      >
-                    </div>
-                  </li>
+                <li class="resp-tab-item">
+                  <div>
+                    <span class="innerpanel-text innerpanel-bg border">Wallet</span>
+                  </div>
+                </li>
 
-                  <li class="resp-tab-item">
-                    <div>
-                      <span class="innerpanel-text innerpanel-bg border"
-                        >UPI</span
-                      >
-                    </div>
-                  </li>
+                <li class="resp-tab-item">
+                  <div>
+                    <span class="innerpanel-text innerpanel-bg border">UPI</span>
+                  </div>
+                </li>
 
-                  <li class="resp-tab-item">
-                    <div>
-                      <span class="innerpanel-text innerpanel-bg border"
-                        >EMI Options</span
-                      >
-                    </div>
-                  </li>
-                </ul>
-                <div class="resp-tabs-container content-bg border span9">
-                  <!-- blahahh -->
-                  <div
-                    class="
+                <li class="resp-tab-item">
+                  <div>
+                    <span class="innerpanel-text innerpanel-bg border">EMI Options</span>
+                  </div>
+                </li>
+              </ul>
+              <div class="resp-tabs-container content-bg border span9">
+                <!-- blahahh -->
+                <div class="
                       resp-tab-content resp-tab-content-active
                       display-block
-                    "
-                    style="display: block"
-                  >
-                    <div id="creditcard_form" class="span12">
-                      <!-- Credit Card Forms Starts -->
-                      <div class="span12 creditCardData creditCardNumber">
-                        <span class="span12 content-text formText"
-                          >Card Number</span
-                        >
-                        <div class="span12 creditcards">
-                          <input
-                            class="
+                    " style="display: block">
+                  <div id="creditcard_form" class="span12">
+                    <!-- Credit Card Forms Starts -->
+                    <div class="span12 creditCardData creditCardNumber">
+                      <span class="span12 content-text formText">Card Number</span>
+                      <div class="span12 creditcards">
+                        <input class="
                               span12
                               textfield
                               creditcard
                               cardNumberC
                               onlynumbers
-                            "
-                            type="tel"
-                            pattern="[0-9]*"
-                            name="creditCardNumber"
-                            id="creditCardNumber"
-                            maxlength="19"
-                          />
+                            " type="tel" pattern="[0-9]*" name="creditCardNumber" id="creditCardNumber"
+                          maxlength="19" />
 
-                          <span class="span12 cards">
-                            <span class="Amex">&nbsp;</span>
+                        <span class="span12 cards">
+                          <span class="Amex">&nbsp;</span>
 
-                            <span class="MasterCard">&nbsp;</span>
+                          <span class="MasterCard">&nbsp;</span>
 
-                            <span class="RuPay">&nbsp;</span>
+                          <span class="RuPay">&nbsp;</span>
 
-                            <span class="Visa">&nbsp;</span>
-                          </span>
-                        </div>
-                        <label class="span12 error"></label>
-                      </div>
-
-                      <!--###########################################-->
-                      <div class="span6 creditCardData expiry-date-col">
-                        <span class="span12 content-text formText"
-                          >Expiry Date</span
-                        >
-                        <span class="span12">
-                          <select
-                            class="select-90x25 expiryMonth payoptselect"
-                            name="expiryMonthCreditCard"
-                            id="expiryMonthCreditCard"
-                          >
-                            <option value="">Month</option>
-                            <option value="01">Jan (01)</option>
-                            <option value="02">Feb (02)</option>
-                            <option value="03">Mar (03)</option>
-                            <option value="04">Apr (04)</option>
-                            <option value="05">May (05)</option>
-                            <option value="06">June (06)</option>
-                            <option value="07">July (07)</option>
-                            <option value="08">Aug (08)</option>
-                            <option value="09">Sep (09)</option>
-                            <option value="10">Oct (10)</option>
-                            <option value="11">Nov (11)</option>
-                            <option value="12">Dec (12)</option>
-                          </select>
-                          <select
-                            class="select-90x25 expiryYear payoptselect"
-                            id="expiryYearCreditCard"
-                            name="expiryYearCreditCard"
-                          >
-                            <option value="">Year</option>
-
-                            <option value="2021">2021</option>
-
-                            <option value="2022">2022</option>
-
-                            <option value="2023">2023</option>
-
-                            <option value="2024">2024</option>
-
-                            <option value="2025">2025</option>
-
-                            <option value="2026">2026</option>
-
-                            <option value="2027">2027</option>
-
-                            <option value="2028">2028</option>
-
-                            <option value="2029">2029</option>
-
-                            <option value="2030">2030</option>
-
-                            <option value="2031">2031</option>
-
-                            <option value="2032">2032</option>
-
-                            <option value="2033">2033</option>
-
-                            <option value="2034">2034</option>
-
-                            <option value="2035">2035</option>
-
-                            <option value="2036">2036</option>
-
-                            <option value="2037">2037</option>
-
-                            <option value="2038">2038</option>
-
-                            <option value="2039">2039</option>
-
-                            <option value="2040">2040</option>
-
-                            <option value="2041">2041</option>
-
-                            <option value="2042">2042</option>
-
-                            <option value="2043">2043</option>
-
-                            <option value="2044">2044</option>
-
-                            <option value="2045">2045</option>
-
-                            <option value="2046">2046</option>
-
-                            <option value="2047">2047</option>
-
-                            <option value="2048">2048</option>
-
-                            <option value="2049">2049</option>
-
-                            <option value="2050">2050</option>
-
-                            <option value="2051">2051</option>
-
-                            <option value="2052">2052</option>
-
-                            <option value="2053">2053</option>
-
-                            <option value="2054">2054</option>
-
-                            <option value="2055">2055</option>
-
-                            <option value="2056">2056</option>
-
-                            <option value="2057">2057</option>
-
-                            <option value="2058">2058</option>
-
-                            <option value="2059">2059</option>
-
-                            <option value="2060">2060</option>
-
-                            <option value="2061">2061</option>
-
-                            <option value="2062">2062</option>
-
-                            <option value="2063">2063</option>
-
-                            <option value="2064">2064</option>
-
-                            <option value="2065">2065</option>
-
-                            <option value="2066">2066</option>
-
-                            <option value="2067">2067</option>
-
-                            <option value="2068">2068</option>
-
-                            <option value="2069">2069</option>
-
-                            <option value="2070">2070</option>
-                          </select>
-                          <label id="currentMonth" style="display: none"
-                            >7</label
-                          >
-                        </span>
-                        <span class="span12 error">
-                          <label class="error"></label>
+                          <span class="Visa">&nbsp;</span>
                         </span>
                       </div>
-                      <div class="span6 creditCardData cvv-number-col">
-                        <span class="span12 content-text"
-                          ><span class="hidden-phone hidden-tablet"
-                            >&nbsp;&nbsp;&nbsp;</span
-                          >CVV</span
-                        >
-                        <span class="span12 cvv_number">
-                          <span class="hidden-phone hidden-tablet"
-                            >&nbsp;&nbsp;</span
-                          ><input class= textfield-55x25 cvvnumber onlynumbers"
-                          id="CVVNumberCreditCard" name="CVVNumberCreditCard"
-                          pattern="[0-9]*" type="password" maxlength="3"
-                          autocomplete="off">
-                          <span class="cvv">
-                            <span class="arrow"></span>
-                          </span>
-                        </span>
-                        <span class="span12 error">
-                          <label
-                            for="CVVNumberCreditCard"
-                            generated="true"
-                            class="error"
-                          ></label>
-                        </span>
-                      </div>
-                      <div class="span12 note-msg">
-                        As per RBI's directive, w.e.f October 01, 2020, any
-                        indian debit/credit card not yet used for online
-                        e-commerce will be blocked for all online transactions.
-                        In case of such failure, please contact your card
-                        issuing bank to enable online usage.
-                      </div>
+                      <label class="span12 error"></label>
+                    </div>
 
-                      <div class="span12" style="margin: 0">
-                        <br />
-                        I agree with the
-                        <a
-                          href="https://www.ccavenue.com/privacy_policy_customers.jsp"
-                          class="primary-link"
-                          target="_blank"
-                          title="Privacy Policy"
-                          >Privacy Policy</a
-                        >
-                        by proceeding with this payment.
-                      </div>
+                    <!--###########################################-->
+                    <div class="span6 creditCardData expiry-date-col">
+                      <span class="span12 content-text formText">Expiry Date</span>
+                      <span class="span12">
+                        <select class="select-90x25 expiryMonth payoptselect" name="expiryMonthCreditCard"
+                          id="expiryMonthCreditCard">
+                          <option value="">Month</option>
+                          <option value="01">Jan (01)</option>
+                          <option value="02">Feb (02)</option>
+                          <option value="03">Mar (03)</option>
+                          <option value="04">Apr (04)</option>
+                          <option value="05">May (05)</option>
+                          <option value="06">June (06)</option>
+                          <option value="07">July (07)</option>
+                          <option value="08">Aug (08)</option>
+                          <option value="09">Sep (09)</option>
+                          <option value="10">Oct (10)</option>
+                          <option value="11">Nov (11)</option>
+                          <option value="12">Dec (12)</option>
+                        </select>
+                        <select class="select-90x25 expiryYear payoptselect" id="expiryYearCreditCard"
+                          name="expiryYearCreditCard">
+                          <option value="">Year</option>
 
-                      <div id="amount" class="span12">
-                        <span class="span12 content-text formText"
-                          ><strong
-                            class="orderTotal highlight-text"
-                            id="paymentAmount"
-                            >INR 999.00</strong
-                          >&nbsp;&nbsp;(Total Amount Payable)</span
-                        >
-                      </div>
-                      <div id="buttons" class="span12 buttonsCredit">
-                        <a
-                          href="#"
-                          class="
+                          <option value="2021">2021</option>
+
+                          <option value="2022">2022</option>
+
+                          <option value="2023">2023</option>
+
+                          <option value="2024">2024</option>
+
+                          <option value="2025">2025</option>
+
+                          <option value="2026">2026</option>
+
+                          <option value="2027">2027</option>
+
+                          <option value="2028">2028</option>
+
+                          <option value="2029">2029</option>
+
+                          <option value="2030">2030</option>
+
+                          <option value="2031">2031</option>
+
+                          <option value="2032">2032</option>
+
+                          <option value="2033">2033</option>
+
+                          <option value="2034">2034</option>
+
+                          <option value="2035">2035</option>
+
+                          <option value="2036">2036</option>
+
+                          <option value="2037">2037</option>
+
+                          <option value="2038">2038</option>
+
+                          <option value="2039">2039</option>
+
+                          <option value="2040">2040</option>
+
+                          <option value="2041">2041</option>
+
+                          <option value="2042">2042</option>
+
+                          <option value="2043">2043</option>
+
+                          <option value="2044">2044</option>
+
+                          <option value="2045">2045</option>
+
+                          <option value="2046">2046</option>
+
+                          <option value="2047">2047</option>
+
+                          <option value="2048">2048</option>
+
+                          <option value="2049">2049</option>
+
+                          <option value="2050">2050</option>
+
+                          <option value="2051">2051</option>
+
+                          <option value="2052">2052</option>
+
+                          <option value="2053">2053</option>
+
+                          <option value="2054">2054</option>
+
+                          <option value="2055">2055</option>
+
+                          <option value="2056">2056</option>
+
+                          <option value="2057">2057</option>
+
+                          <option value="2058">2058</option>
+
+                          <option value="2059">2059</option>
+
+                          <option value="2060">2060</option>
+
+                          <option value="2061">2061</option>
+
+                          <option value="2062">2062</option>
+
+                          <option value="2063">2063</option>
+
+                          <option value="2064">2064</option>
+
+                          <option value="2065">2065</option>
+
+                          <option value="2066">2066</option>
+
+                          <option value="2067">2067</option>
+
+                          <option value="2068">2068</option>
+
+                          <option value="2069">2069</option>
+
+                          <option value="2070">2070</option>
+                        </select>
+                        <label id="currentMonth" style="display: none">7</label>
+                      </span>
+                      <span class="span12 error">
+                        <label class="error"></label>
+                      </span>
+                    </div>
+                    <div class="span6 creditCardData cvv-number-col">
+                      <span class="span12 content-text"><span
+                          class="hidden-phone hidden-tablet">&nbsp;&nbsp;&nbsp;</span>CVV</span>
+                      <span class="span12 cvv_number">
+                        <span class="hidden-phone hidden-tablet">&nbsp;&nbsp;</span><input class=textfield-55x25
+                          cvvnumber onlynumbers" id="CVVNumberCreditCard" name="CVVNumberCreditCard" pattern="[0-9]*"
+                          type="password" maxlength="3" autocomplete="off">
+                        <span class="cvv">
+                          <span class="arrow"></span>
+                        </span>
+                      </span>
+                      <span class="span12 error">
+                        <label for="CVVNumberCreditCard" generated="true" class="error"></label>
+                      </span>
+                    </div>
+                    <div class="span12 note-msg">
+                      As per RBI's directive, w.e.f October 01, 2020, any
+                      indian debit/credit card not yet used for online
+                      e-commerce will be blocked for all online transactions.
+                      In case of such failure, please contact your card
+                      issuing bank to enable online usage.
+                    </div>
+
+                    <div class="span12" style="margin: 0">
+                      <br />
+                      I agree with the
+                      <a href="https://www.ccavenue.com/privacy_policy_customers.jsp" class="primary-link"
+                        target="_blank" title="Privacy Policy">Privacy Policy</a>
+                      by proceeding with this payment.
+                    </div>
+
+                    <div id="amount" class="span12">
+                      <span class="span12 content-text formText"><strong class="orderTotal highlight-text"
+                          id="paymentAmount">INR 999.00</strong>&nbsp;&nbsp;(Total Amount Payable)</span>
+                    </div>
+                    <div id="buttons" class="span12 buttonsCredit">
+                      <a href="#" class="
                             primary-button primary-button-bg
                             SubmitBillShip
                             SubmitBillCredit
                             radius4
-                          "
-                          id="SubmitBillShip"
-                          ><span class="primary-button-text"
-                            >Make Payment</span
-                          ></a
-                        >
-                        &nbsp;&nbsp;&nbsp;<a
-                          href="#"
-                          class="
+                          " id="SubmitBillShip"><span class="primary-button-text">Make Payment</span></a>
+                      &nbsp;&nbsp;&nbsp;<a href="#" class="
                             primary-button primary-button-bg
                             cancel
                             radius4
-                          "
-                          ><span class="primary-button-text">Cancel</span></a
-                        >
-                      </div>
+                          "><span class="primary-button-text">Cancel</span></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Payment Information Panel Ends -->
         </div>
-        <!-- ********* Body Left Panel Ends ********* -->
+        <!-- Payment Information Panel Ends -->
       </div>
+      <!-- ********* Body Left Panel Ends ********* -->
+    </div>
 
-      <!-- Footer Starts -->
-      <div class="row-fluid footer-logos" id="cc-footer">
-        <div class="span12">
-          <span class="poweredby CCAV"
-            ><img
-              src="https://secure.ccavenue.com/images/CCAV.png"
-            />&nbsp;</span
-          ><a
-            class="norton"
-            href="https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=www.ccavenue.com&amp;lang=en"
-            >&nbsp;</a
-          >
-          <a
-            onclick="window.open('https://www.sisainfosec.com/certificate.php?number=89667556289186497113&amp;type=pcidss','SISA Certificate','width=685,height=670')"
-            href="javascript:"
-            ><span title="PCI-DSS - Certified by SISA" class="pci"
-              >&nbsp;</span
-            ></a
-          >
-        </div>
+    <!-- Footer Starts -->
+    <div class="row-fluid footer-logos" id="cc-footer">
+      <div class="span12">
+        <span class="poweredby CCAV"><img src="https://secure.ccavenue.com/images/CCAV.png" />&nbsp;</span><a
+          class="norton"
+          href="https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=www.ccavenue.com&amp;lang=en">&nbsp;</a>
+        <a onclick="window.open('https://www.sisainfosec.com/certificate.php?number=89667556289186497113&amp;type=pcidss','SISA Certificate','width=685,height=670')"
+          href="javascript:"><span title="PCI-DSS - Certified by SISA" class="pci">&nbsp;</span></a>
       </div>
+    </div>
 
-      <!-- Footer Ends -->
+    <!-- Footer Ends -->
 
-      <script src="../javascript/jobposting1.js"></script>
-    </body>
+    <script src="../javascript/jobposting1.js"></script>
   </body>
+</body>
+
 </html>

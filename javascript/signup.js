@@ -40,6 +40,6 @@ function getdata(e) {
 	if (detailOfSignIn.isCorrect === false) {
 		alert('Invalid credential');
 	} else {
-		document.location.href = '../html/free-job-alerts.html';
+		document.location.href = './html/free-job-alerts.html';
 	}
 }
